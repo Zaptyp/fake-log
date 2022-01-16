@@ -437,7 +437,7 @@ router.all("/Oceny.mvc/Get", (req, res) => {
                         return {
                             "Nauczyciel": `${teacher.Imie} ${teacher.Nazwisko}`,
                             "Wpis": item.Wpis,
-                            "Waga": Math.round(item.WagaOceny),
+                            "Waga": item.WagaOceny,
                             "NazwaKolumny": item.Opis,
                             "KodKolumny": category.Kod,
                             "DataOceny": gradeDate,
