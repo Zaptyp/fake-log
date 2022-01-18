@@ -53,7 +53,7 @@ router.get("/Uczen.mvc/DanePodstawowe", (req, res) => {
     });
 });
 
-router.get("/Oceny(\.mvc|)/Wszystkie", (req, res) => {
+router.get("/Oceny(.mvc|)/Wszystkie", (req, res) => {
     let data;
     let viewPath;
 
@@ -201,7 +201,7 @@ router.get("/UwagiOsiagniecia.mvc/Wszystkie", (req, res) => {
     });
 });
 
-router.get("/Lekcja(\.mvc|)/PlanZajec", (req, res) => {
+router.get("/Lekcja(.mvc|)/PlanZajec", (req, res) => {
     const teachers = require("../../data/api/dictionaries/Nauczyciele");
     const days = _.groupBy(require("../../data/api/student/PlanLekcjiZeZmianami").filter((item) => item.PlanUcznia).map(item => {
         const teacher = dictMap.getByValue(teachers, "Id", item.IdPracownik);
@@ -233,7 +233,7 @@ router.get("/Lekcja(\.mvc|)/PlanZajec", (req, res) => {
         let prevNumber = null;
 
         const beforeGap = day[0].number - firstLesson;
-
+        var i = 0;
         for (i = 0; i < beforeGap; i++) {
             const number = firstLesson + i;
             const times = dictMap.getByValue(require("../../data/api/dictionaries/PoryLekcji"), "Numer", number);
@@ -296,7 +296,7 @@ router.get("/Lekcja(\.mvc|)/PlanZajec", (req, res) => {
     });
 });
 
-router.get("/Lekcja(\.mvc|)/Zrealizowane", (req, res) => {
+router.get("/Lekcja(.mvc|)/Zrealizowane", (req, res) => {
     res.render("opiekun/plan-zrealizowane", {
         title: "Witryna ucznia i rodzica – Plan lekcji",
         subjects: require("../../data/api/dictionaries/Przedmioty"),

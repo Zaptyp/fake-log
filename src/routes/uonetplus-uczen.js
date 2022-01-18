@@ -437,7 +437,7 @@ router.all("/Oceny.mvc/Get", (req, res) => {
                         return {
                             "Nauczyciel": `${teacher.Imie} ${teacher.Nazwisko}`,
                             "Wpis": item.Wpis,
-                            "Waga": item.WagaOceny,
+                            "Waga": Math.round(item.WagaOceny),
                             "NazwaKolumny": item.Opis,
                             "KodKolumny": category.Kod,
                             "DataOceny": gradeDate,
@@ -813,7 +813,6 @@ router.all("/Usprawiedliwienia.mvc/Post", (req, res) => {
 router.all("/UwagiIOsiagniecia.mvc/Get", (req, res) => {
     const categories = require("../../data/api/dictionaries/KategorieUwag");
     const teachers = require("../../data/api/dictionaries/Pracownicy");
-    let i = 1;
     res.json({
         "data": {
             "Uwagi": require("../../data/api/student/UwagiUcznia").map(item => {
@@ -850,10 +849,8 @@ router.all("/Homework.mvc/Get", (req, res) => {
         "data": [...Array(7).keys()].map(j => {
             return {
                 "Date": converter.formatDate(addDays(requestDate, j), true) + " 00:00:00",
-                "Homework": homework.filter(item => {
-                    return j < 5;
-                    // return 0 === differenceInDays(addDays(requestDate, j), addDays(parseISO(item.DataTekst), baseOffset));
-                }).map((item, index) => {
+                "Homework": homework.filter
+                .map((item, index) => {
                     const teacher = dictMap.getByValue(teachers, "Id", item.IdPracownik);
                     const attachments = [
                         {
