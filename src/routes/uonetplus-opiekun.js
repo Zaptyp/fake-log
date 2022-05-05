@@ -28,7 +28,7 @@ router.get("/Start/Index/", (req, res) => {
     res.cookie("EfebSsoAuthCookie", "asdfasdfasdfasdfasdfasdfas", {
         domain: req.get('host').replace("uonetplus-opiekun", ""),
         path: '/',
-        httpOnly: true
+        httpOnly: false
     });
     res.cookie("idBiezacyDziennik", "1234");
     res.render("opiekun/start", {title: "Witryna ucznia i rodzica – Strona główna"});

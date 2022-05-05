@@ -9,26 +9,25 @@
   },
   "dependencies": {
     "@types/express": "^4.17.13",
-    "body-parser": "~1.19.1",
+    "body-parser": "~1.20.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "csrf": "^3.1.0",
     "eslint": "^8.7.0",
     "date-fns": "^2.28.0",
-    "debug": "^4.3.3",
-    "express": "~4.17.2",
+    "debug": "^4.3.4",
+    "express": "~4.17.3",
     "express-subdomain": "^1.0.5",
     "lodash": "latest",
     "md5": "^2.3.0",
     "morgan": "~1.10.0",
-    "node-sass-middleware": "git+https://github.com/Zaptyp/node-sass-middleware",
+    "node-sass-middleware": "1.0.1",
     "pug": "^3.0.2",
     "serve-favicon": "~2.5.0",
-    "uuidv4": "^6.2.12"
+    "uuidv4": "^6.2.13"
   },
   "devDependencies": {
-    "eslint-plugin-requirejs": "4.0.1",
-    "jshint": "^2.13.3",
+    "jshint": "^2.13.4",
     "nodemon": "^2.0.15"
   },
   "engines": {
