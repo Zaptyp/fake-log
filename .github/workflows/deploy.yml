@@ -16,7 +16,9 @@ jobs:
           known_hosts: 'Error'
       - name: Adding Known Hosts
         run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+      - name: Stop the Fakelog server
+        run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} 'sudo systemctl stop fakelog'
       - name: Deploy using rsync
         run: rsync -avz /home/runner/work/fake-log/fake-log/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/ubuntu/Documents/test/fake-log/
-        # run: ssh ubuntu@${{ secrets.SSH_HOST }}
-          
+      - name: Start the Fakelog server
+        run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} 'sudo systemctl start fakelog'
