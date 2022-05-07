@@ -26,5 +26,5 @@ jobs:
         run: sleep 20s
       - name: Check Fakelog server errors
         run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} 'sudo systemctl status fakelog'
-      -  if: ${{ failure() }}
+      -  if: ${{ failure() }} == true
          run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} 'sudo journalctl -xe --since "30 seconds ago" | grep start.sh'
