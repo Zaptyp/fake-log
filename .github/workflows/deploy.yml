@@ -22,6 +22,8 @@ jobs:
         run: rsync -avz /home/runner/work/fake-log/fake-log/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USER }}/Documents/Server-Fakelog/fake-log/
       - name: Start the Fakelog server
         run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} 'sudo systemctl start fakelog'
+      - name: Sleep for 20 seconds
+        run: sleep 20s
       - name: Check Fakelog server errors
         run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} 'sudo systemctl status fakelog'
       
