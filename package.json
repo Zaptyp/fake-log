@@ -13,10 +13,10 @@
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "csrf": "^3.1.0",
-    "eslint": "^8.7.0",
+    "eslint": "^8.15.0",
     "date-fns": "^2.28.0",
     "debug": "^4.3.4",
-    "express": "~4.17.3",
+    "express": "~4.18.1",
     "express-subdomain": "^1.0.5",
     "lodash": "latest",
     "md5": "^2.3.0",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "jshint": "^2.13.4",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.16"
   },
   "engines": {
     "node": "17.x"
