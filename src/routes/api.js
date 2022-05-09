@@ -9,7 +9,7 @@ router.all("/", (req, res) => {
     res.json({
         "status": "success",
         "start": base.replace("api.", ""),
-        "repo": "https://github.com/wulkanowy/fake-log",
+        "repo": "https://github.com/Zaptyp/fake-log",
         "sdk": "https://github.com/wulkanowy/sdk",
         "docs": "https://gitlab.com/erupcja/uonet-api-docs",
         "api": [

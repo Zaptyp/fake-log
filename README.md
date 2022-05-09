@@ -16,7 +16,7 @@ $ npm start
 ### Docker
 
 ```bash
-git clone https://github.com/wulkanowy/fake-log.git
+git clone https://github.com/Zaptyp/fake-log.git
 docker build -t fake-log .
 docker run -p 3000:3000 fake-log
 ```
@@ -24,7 +24,7 @@ docker run -p 3000:3000 fake-log
 ### docker-compose
 
 ```bash
-git clone https://github.com/wulkanowy/fake-log.git
+git clone https://github.com/Zaptyp/fake-log.git
 docker-compose up
 ```
 
