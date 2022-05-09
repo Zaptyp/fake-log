@@ -5,7 +5,7 @@ const protocol = require('../utils/connection');
 router.get("/powiatwulkanowy/Start.mvc/Endpoints", (req, res) => {
     const base = protocol(req) + "://" + req.get('host') + "/powiatwulkanowy/Start.mvc";
     res.json({
-        status: "sucess",
+        status: "success",
         data: {
             endpoints: [
                 "/GetSelfGovernments",

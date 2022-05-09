@@ -22,7 +22,7 @@ const {
 router.get("/", (req, res) => {
     const base = protocol(req) + "://" + req.get('host') + "/powiatwulkanowy/123456";
     res.json({
-        status: "sucess",
+        status: "success",
         data: {
             endpoints: [
                 "/Diety.mvc/Get",

@@ -12,7 +12,7 @@ router.get("/", (req, res) => {
 router.get("/-endpoints", (req, res) => {
     const base = protocol(req) + "://" + req.get('host') + "/powiatwulkanowy";
     res.json({
-        status: "sucess",
+        status: "success",
         data: {
             endpoints: [
                 "/Wiadomosc.mvc/GetInboxMessages",
