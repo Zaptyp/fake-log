@@ -28,6 +28,20 @@
     "DataTekst": "2018-10-16"
   },
   {
+    "Id": 32342,
+    "IdPrzedmiot": 304,
+    "IdPracownik": 2,
+    "IdOddzial": 97,
+    "IdPodzial": 2067,
+    "PodzialNazwa": null,
+    "PodzialSkrot": null,
+    "Rodzaj": false,
+    "RodzajNumer": 1,
+    "Opis": "Test Test",
+    "Data": 1523311200,
+    "DataTekst": "2018-10-22"
+  },
+  {
     "Id": 23031,
     "IdPrzedmiot": 311,
     "IdPracownik": 2,
