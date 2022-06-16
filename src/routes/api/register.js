@@ -25,9 +25,9 @@ router.all("/hebe", (req, res) => {
             ],
             "ClassDisplay": "8b",
             "ConstituentUnit": {
-                "Address": "ul. Wulkanowego 30, 30-300 Fakelog.ga, Polska",
+                "Address": "ul. Wulkanowego 30, 30-300 Fakelog.gq, Polska",
                 "Id": 2,
-                "Name": "Publiczna szkoła Wulkanowego nr 1 w fakelog.ga",
+                "Name": "Publiczna szkoła Wulkanowego nr 1 w fakelog.gq",
                 "Patron": "Święty Wulkan",
                 "SchoolTopic": "12f446f1-1751-1711-10e1-101dd8b71c11",
                 "Short": "SPL"
@@ -215,12 +215,12 @@ router.all("/hebe", (req, res) => {
             },
             "TopLevelPartition": "powiatwulkanowy",
             "Unit": {
-                "Address": "ul. Wulkanowego 30, 30-300 Fakelog.ga, Polska",
+                "Address": "ul. Wulkanowego 30, 30-300 Fakelog.gq, Polska",
                 "DisplayName": "Publiczna szkoła Wulkanowego nr 1 w fakelog.",
                 "Id": 2,
                 "Name": "Publiczna szkoła Wulkanowego",
                 "Patron": "Święty Wulkan",
-                "RestURL": "https://api.fakelog.ga/powiatwulkanowy/123456/api",
+                "RestURL": "https://api.fakelog.gq/powiatwulkanowy/123456/api",
                 "Short": "123456",
                 "Symbol": "123456"
             }
