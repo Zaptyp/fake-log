@@ -197,7 +197,11 @@ router.all("/EgzaminySemestralne.mvc/Get", (req, res) => {
 
 router.all("/EgzaminyZewnetrzne.mvc/Get", (req, res) => {
     res.json({
-        "data": {},
+        "data": {
+            "EgazminyZewnetrzne": [],
+            "UczenHasKwalifikacje": false,
+            "SwiadectwaKwalifikacjiZawodowych": null
+        },
         "success": true
     });
 });
