@@ -501,7 +501,7 @@ router.all("/OkresyUmowOplat.mvc/Get", (req, res) => {
 router.all("/Oplaty.mvc/Get", (req, res) => {
     res.json({
         "data": {
-            "DataKomunikatu": converter.formatDate(new Date(), true) + converter.formatTime(new Date(), true),
+            "DataKomunikatu": converter.formatDate(new Date(), true) + " 00:00:00",
             "DataPobrania": null,
             "Opis": null
         },
