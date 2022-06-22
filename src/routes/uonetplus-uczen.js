@@ -491,13 +491,6 @@ router.all("/Oceny.mvc/Get", (req, res) => {
     });
 });
 
-router.all("/OkresyUmowOplat.mvc/Get", (req, res) => {
-    res.json({
-        "data": {},
-        "success": true
-    });
-});
-
 router.all("/Oplaty.mvc/Get", (req, res) => {
     res.json({
         "data": {
@@ -632,6 +625,36 @@ router.all("/PlanZajec.mvc/Get", (req, res) => {
                 };
             })
         },
+        "success": true
+    });
+});
+
+router.all("/Ogloszenia.mvc/Get", (req, res) => {
+    res.json({
+        "data": [],
+        "success": true
+    });
+});
+
+router.all("/PodrecznikiUcznia.mvc/Get", (req, res) => {
+    res.json({
+        "data": {
+            "IsZatwierdzone": false,
+            "Podreczniki": []
+        },
+        "success": true
+    });
+});
+
+router.all("/PodrecznikiLataSzkolne.mvc/Get", (req, res) => {
+    const PodrecznikiLata = require("../../data/api/student/PodrecznikiLataSzkolne").map(item => {
+        return {
+            "Nazwa": item.Nazwa,
+            "Id": item.Id,
+        };
+    });
+    res.json({
+        "data": PodrecznikiLata,
         "success": true
     });
 });
@@ -958,7 +981,7 @@ router.all("/ZarejestrowaneUrzadzenia.mvc/Delete", (req, res) => {
 
 router.all("/ZgloszoneNieobecnosci.mvc/Get", (req, res) => {
     res.json({
-        "data": {},
+        "data": [],
         "success": true
     });
 });
