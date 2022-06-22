@@ -501,7 +501,8 @@ router.all("/OkresyUmowOplat.mvc/Get", (req, res) => {
 router.all("/Oplaty.mvc/Get", (req, res) => {
     res.json({
         "data": {
-            "DataKomunikatu": converter.formatDate(new Date()),
+            // Dynamic date from the server in format like "2020-01-01 00:00:00"
+            "DataKomunikatu": converter.formatDate(new Date(), true),
             "DataPobrania": null,
             "Opis": null
         },
