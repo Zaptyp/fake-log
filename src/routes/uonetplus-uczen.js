@@ -26,6 +26,7 @@ router.get("/", (req, res) => {
         data: {
             endpoints: [
                 "/Diety.mvc/Get",
+                "/DostepOffice.mvc/Get",
                 "/EgzaminySemestralne.mvc/Get",
                 "/EgzaminyZewnetrzne.mvc/Get",
                 "/EwidencjaObecnosci.mvc/Get",
@@ -37,13 +38,16 @@ router.get("/", (req, res) => {
                 "/FrekwencjaStatystyki.mvc/Get",
                 "/FrekwencjaStatystykiPrzedmioty.mvc/Get",
                 "/Jadlospis.mvc/Get",
+                "/LekcjeZaplanowane.mvc/GetZaplanowane",
                 "/LekcjeZrealizowane.mvc/GetPrzedmioty",
                 "/LekcjeZrealizowane.mvc/GetZrealizowane",
                 "/Oceny.mvc/Get",
-                "/OkresyUmowOplat.mvc/Get",
+                "/Ogloszenia.mvc/Get",
                 "/Oplaty.mvc/Get",
                 "/PlanZajec.mvc/Get",
                 "/Pomoc.mvc/Get",
+                "/PodrecznikiLataSzkolne.mvc/Get",
+                "/PodrecznikiUcznia.mvc/Get",
                 "/RejestracjaUrzadzeniaToken.mvc/Get",
                 "/RejestracjaUrzadzeniaToken.mvc/Delete",
                 "/RejestracjaUrzadzeniaTokenCertyfikat.mvc/Get",
@@ -175,8 +179,16 @@ router.all("/Diety.mvc/Get", (req, res) => {
 });
 
 router.all("/EgzaminySemestralne.mvc/Get", (req, res) => {
+    const examsemester = require("../../data/api/student/EgzaminySemestralne");
     res.json({
-        "data": {},
+        "data": {
+            "Pozycja": item.Pozycja,
+            "Nazwa": item.Nazwa,
+            "Laczna": item.Laczna,
+            "Proponowana": item.Proponowana,
+            "Ustna": item.Ustna,
+            "Pisemna": item.Pisemna,
+        },
         "success": true
     });
 });
