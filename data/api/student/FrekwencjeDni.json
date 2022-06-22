@@ -1,0 +1,27 @@
+[
+    {
+        "Data": "2022-06-20 00:00:00",
+        "NieobecnoscCalyDzien": 0,
+        "UczenWOddziale": true
+    },
+    {
+        "Data": "2022-06-21 00:00:00",
+        "NieobecnoscCalyDzien": 0,
+        "UczenWOddziale": true
+    },
+    {
+        "Data": "2022-06-22 00:00:00",
+        "NieobecnoscCalyDzien": 1,
+        "UczenWOddziale": true
+    },
+    {
+        "Data": "2022-06-23 00:00:00",
+        "NieobecnoscCalyDzien": 1,
+        "UczenWOddziale": true
+    },
+    {
+        "Data": "2022-06-24 00:00:00",
+        "NieobecnoscCalyDzien": 1,
+        "UczenWOddziale": true
+    }
+]

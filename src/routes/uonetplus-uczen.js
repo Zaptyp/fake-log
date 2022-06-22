@@ -254,26 +254,29 @@ router.all("/FormularzeWysylanie.mvc/Post", (req, res) => {
 
 router.all("/Frekwencja.mvc/Get", (req, res) => {
     const attendance = require("../../data/api/student/Frekwencje");
+    const attadancedata = require("../../data/api/student/FrekwencjeDni");
     res.json({
         "data": {
             "UsprawiedliwieniaAktywne": true,
-            "Dni": [],
+            "Dni": attadancedata.map((item) => {
+                return {
+                    "Data": item.Data,
+                    "NieobecnoscCalyDzien": item.NieobecnoscCalyDzien,
+                    "UczenWOddziale": item.UczenWOddziale,
+                };
+            }),
             "UsprawiedliwieniaWyslane": [],
             "Frekwencje": attendance.map((item) => {
-                let offset = (new Date(item.DzienTekst)).getDay() - (new Date(attendance[0].DzienTekst).getDay());
-                let date;
-                if (req.body.data) {
-                    date = converter.formatDate(addDays(new Date(req.body.data.replace(" ", "T").replace(/Z$/, '') + "Z"), offset), true);
-                } else date = item.DzienTekst;
                 return {
                     "IdKategoria": item.IdKategoria,
-                    "NrDnia": item.Numer,
-                    "Symbol": "/",
-                    "SymbolImage": "data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==",
+                    "NrDnia": item.NrDnia,
+                    "Symbol": item.Symbol,
+                    "SymbolImage": item.SymbolImage,
                     "PrzedmiotNazwa": item.PrzedmiotNazwa,
+                    "WycieczkaNazwa": item.WycieczkaNazwa,
                     "IdPoraLekcji": item.IdPoraLekcji,
-                    "Data": `${date} 00:00:00`,
-                    "LekcjaOddzialId": item.Dzien * item.Numer
+                    "Data": item.Data + ` 00:00:00`,
+                    "LekcjaOddzialId": item.LekcjaOddzialId,
                 };
             })
         },
@@ -661,7 +664,12 @@ router.all("/PodrecznikiLataSzkolne.mvc/Get", (req, res) => {
 
 router.all("/Pomoc.mvc/Get", (req, res) => {
     res.json({
-        "data": {},
+        "data": {
+            "PomocUrl": "https://github.com/Zaptyp/fake-log",
+            "BazaWiedzyUrl": "https://github.com/Zaptyp/fake-log/blob/master/README.md",
+            "HistoriaZmianUrl": "https://github.com/Zaptyp/fake-log/commits/master",
+            "Aktualizacje": "https://github.com/Zaptyp/fake-log/pulls "
+        },
         "success": true
     });
 });

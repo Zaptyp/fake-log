@@ -1,218 +1,156 @@
 [
-  {
-    "IdKategoria": 1,
-    "Numer": 1,
-    "IdPoraLekcji": 76,
-    "Dzien": 1524434400,
-    "DzienTekst": "2018-04-23",
-    "IdPrzedmiot": 300,
-    "PrzedmiotNazwa": "Zajęcia z wychowawcą"
-  },
-  {
-    "IdKategoria": 2,
-    "Numer": 2,
-    "IdPoraLekcji": 77,
-    "Dzien": 1524434400,
-    "DzienTekst": "2018-04-23",
-    "IdPrzedmiot": 312,
-    "PrzedmiotNazwa": "Informatyka"
-  },
-  {
-    "IdKategoria": 2,
-    "Numer": 3,
-    "IdPoraLekcji": 78,
-    "Dzien": 1524434400,
-    "DzienTekst": "2018-04-23",
-    "IdPrzedmiot": 312,
-    "PrzedmiotNazwa": "Informatyka"
-  },
-  {
-    "IdKategoria": 2,
-    "Numer": 4,
-    "IdPoraLekcji": 79,
-    "Dzien": 1524434400,
-    "DzienTekst": "2018-04-23",
-    "IdPrzedmiot": 307,
-    "PrzedmiotNazwa": "Matematyka"
-  },
-  {
-    "IdKategoria": 2,
-    "Numer": 5,
-    "IdPoraLekcji": 80,
-    "Dzien": 1524434400,
-    "DzienTekst": "2018-04-23",
-    "IdPrzedmiot": 307,
-    "PrzedmiotNazwa": "Matematyka"
-  },
-  {
-    "IdKategoria": 3,
-    "Numer": 1,
-    "IdPoraLekcji": 76,
-    "Dzien": 1524434400,
-    "DzienTekst": "2018-04-24",
-    "IdPrzedmiot": 307,
-    "PrzedmiotNazwa": "Matematyka"
-  },
-  {
-    "IdKategoria": 4,
-    "Numer": 2,
-    "IdPoraLekcji": 77,
-    "Dzien": 1524434400,
-    "DzienTekst": "2018-04-24",
-    "IdPrzedmiot": 307,
-    "PrzedmiotNazwa": "Matematyka"
-  },
-  {
-    "IdKategoria": 1,
-    "Numer": 3,
-    "IdPoraLekcji": 78,
-    "Dzien": 1524434400,
-    "DzienTekst": "2018-04-24",
-    "IdPrzedmiot": 307,
-    "PrzedmiotNazwa": "Matematyka"
-  },
-  {
-    "IdKategoria": 1,
-    "Numer": 4,
-    "IdPoraLekcji": 79,
-    "Dzien": 1524434400,
-    "DzienTekst": "2018-04-24",
-    "IdPrzedmiot": 307,
-    "PrzedmiotNazwa": "Matematyka"
-  },
-  {
-    "IdKategoria": 1,
-    "Numer": 5,
-    "IdPoraLekcji": 80,
-    "Dzien": 1524434400,
-    "DzienTekst": "2018-04-24",
-    "IdPrzedmiot": 307,
-    "PrzedmiotNazwa": "Matematyka"
-  },
-  {
-    "IdKategoria": 5,
-    "Numer": 1,
-    "IdPoraLekcji": 76,
-    "Dzien": 1524520800,
-    "DzienTekst": "2018-04-25",
-    "IdPrzedmiot": 302,
-    "PrzedmiotNazwa": "Historia"
-  },
-  {
-    "IdKategoria": 6,
-    "Numer": 2,
-    "IdPoraLekcji": 77,
-    "Dzien": 1524520800,
-    "DzienTekst": "2018-04-25",
-    "IdPrzedmiot": 304,
-    "PrzedmiotNazwa": "Język angielski"
-  },
-  {
-    "IdKategoria": 6,
-    "Numer": 3,
-    "IdPoraLekcji": 78,
-    "Dzien": 1524520800,
-    "DzienTekst": "2018-04-25",
-    "IdPrzedmiot": 304,
-    "PrzedmiotNazwa": "Język angielski"
-  },
-  {
-    "IdKategoria": 6,
-    "Numer": 4,
-    "IdPoraLekcji": 79,
-    "Dzien": 1524520800,
-    "DzienTekst": "2018-04-25",
-    "IdPrzedmiot": 304,
-    "PrzedmiotNazwa": "Język angielski"
-  },
-  {
-    "IdKategoria": 6,
-    "Numer": 5,
-    "IdPoraLekcji": 80,
-    "Dzien": 1524520800,
-    "DzienTekst": "2018-04-25",
-    "IdPrzedmiot": 304,
-    "PrzedmiotNazwa": "Język angielski"
-  },
-  {
-    "IdKategoria": 7,
-    "Numer": 1,
-    "IdPoraLekcji": 76,
-    "Dzien": 1524520800,
-    "DzienTekst": "2018-04-26",
-    "IdPrzedmiot": 312,
-    "PrzedmiotNazwa": "Informatyka"
-  },
-  {
-    "IdKategoria": 8,
-    "Numer": 2,
-    "IdPoraLekcji": 77,
-    "Dzien": 1524520800,
-    "DzienTekst": "2018-04-26",
-    "IdPrzedmiot": 311,
-    "PrzedmiotNazwa": "Geografia"
-  },
-  {
-    "IdKategoria": 5,
-    "Numer": 3,
-    "IdPoraLekcji": 78,
-    "Dzien": 1524520800,
-    "DzienTekst": "2018-04-26",
-    "IdPrzedmiot": 311,
-    "PrzedmiotNazwa": "Geografia"
-  },
-  {
-    "IdKategoria": 4,
-    "Numer": 4,
-    "IdPoraLekcji": 79,
-    "Dzien": 1524520800,
-    "DzienTekst": "2018-04-26",
-    "IdPrzedmiot": 311,
-    "PrzedmiotNazwa": "Geografia"
-  },
-  {
-    "IdKategoria": 3,
-    "Numer": 5,
-    "IdPoraLekcji": 80,
-    "Dzien": 1524520800,
-    "DzienTekst": "2018-04-26",
-    "IdPrzedmiot": 311,
-    "PrzedmiotNazwa": "Geografia"
-  },
-  {
-    "IdKategoria": 1,
-    "Numer": 1,
-    "IdPoraLekcji": 76,
-    "Dzien": 1524520800,
-    "DzienTekst": "2018-04-27",
-    "IdPrzedmiot": 311,
-    "PrzedmiotNazwa": "Geografia"
-  },
-  {
-    "IdKategoria": 1,
-    "Numer": 2,
-    "IdPoraLekcji": 77,
-    "Dzien": 1524520800,
-    "DzienTekst": "2018-04-27",
-    "IdPrzedmiot": 311,
-    "PrzedmiotNazwa": "Geografia"
-  },
-  {
-    "IdKategoria": 1,
-    "Numer": 3,
-    "IdPoraLekcji": 78,
-    "Dzien": 1524520800,
-    "DzienTekst": "2018-04-27",
-    "IdPrzedmiot": 311,
-    "PrzedmiotNazwa": "Geografia"
-  },
-  {
-    "IdKategoria": 1,
-    "Numer": 4,
-    "IdPoraLekcji": 79,
-    "Dzien": 1524520800,
-    "DzienTekst": "2018-04-27",
-    "IdPrzedmiot": 311,
-    "PrzedmiotNazwa": "Geografia"
-  }
+    {
+        "IdKategoria": 3,
+        "NrDnia": 1,
+        "Symbol": "u",
+        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACOSURBVFhHY/hzMOD/cMCjHhlseNQjcLwp+n9lZOr/SDCO+38GmxoMHP5/OlxP0v/Nm7CpIQ1TySNkOoYSvWh41CNwjM0xlIiRiUc9AsejHsEhRiYe9QgcY3UMpJ6YvgghdqYeS50x+D0CxIvioBUeBE+fOCRjhEg8+DwCC/mh3EQZJHjUI4MNDxOPBPwHAHpBr9UG/Y9xAAAAAElFTkSuQmCC",
+        "PrzedmiotNazwa": null,
+        "WycieczkaNazwa": null,
+        "IdPoraLekcji": 76,
+        "Data": "2022-06-20 00:00:00",
+        "LekcjaOddzialId": 0
+    },
+    {
+        "IdKategoria": 1,
+        "NrDnia": 1,
+        "Symbol": "●",
+        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACHSURBVFhH7ZZBCoAgEEW9pgfoEq47hLsu4aZLCJ3CbvGL1ELQosDI+A9m5QjzkD8oCCH1gRuhZAe51QALIBxlASbovb+Hcef9r+FF7g/09F41KNKKCDDDqHIWmhGxOkrEShdBEyLpZjpKryahhS9SjdJAv8nIFRSphR8on4Mcn/2iEPJbhFgAXyJEEWgRs3YAAAAASUVORK5CYII=",
+        "PrzedmiotNazwa": null,
+        "WycieczkaNazwa": null,
+        "IdPoraLekcji": 77,
+        "Data": "2022-06-20 00:00:00",
+        "LekcjaOddzialId": 0
+    },
+    {
+        "IdKategoria": 1,
+        "NrDnia": 1,
+        "Symbol": "●",
+        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACHSURBVFhH7ZZBCoAgEEW9pgfoEq47hLsu4aZLCJ3CbvGL1ELQosDI+A9m5QjzkD8oCCH1gRuhZAe51QALIBxlASbovb+Hcef9r+FF7g/09F41KNKKCDDDqHIWmhGxOkrEShdBEyLpZjpKryahhS9SjdJAv8nIFRSphR8on4Mcn/2iEPJbhFgAXyJEEWgRs3YAAAAASUVORK5CYII=",
+        "PrzedmiotNazwa": null,
+        "WycieczkaNazwa": null,
+        "IdPoraLekcji": 78,
+        "Data": "2022-06-20 00:00:00",
+        "LekcjaOddzialId": 0
+    },
+    {
+        "IdKategoria": 1,
+        "NrDnia": 1,
+        "Symbol": "●",
+        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACHSURBVFhH7ZZBCoAgEEW9pgfoEq47hLsu4aZLCJ3CbvGL1ELQosDI+A9m5QjzkD8oCCH1gRuhZAe51QALIBxlASbovb+Hcef9r+FF7g/09F41KNKKCDDDqHIWmhGxOkrEShdBEyLpZjpKryahhS9SjdJAv8nIFRSphR8on4Mcn/2iEPJbhFgAXyJEEWgRs3YAAAAASUVORK5CYII=",
+        "PrzedmiotNazwa": null,
+        "WycieczkaNazwa": null,
+        "IdPoraLekcji": 79,
+        "Data": "2022-06-20 00:00:00",
+        "LekcjaOddzialId": 0
+    },
+    {
+        "IdKategoria": 1,
+        "NrDnia": 1,
+        "Symbol": "●",
+        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACHSURBVFhH7ZZBCoAgEEW9pgfoEq47hLsu4aZLCJ3CbvGL1ELQosDI+A9m5QjzkD8oCCH1gRuhZAe51QALIBxlASbovb+Hcef9r+FF7g/09F41KNKKCDDDqHIWmhGxOkrEShdBEyLpZjpKryahhS9SjdJAv8nIFRSphR8on4Mcn/2iEPJbhFgAXyJEEWgRs3YAAAAASUVORK5CYII=",
+        "PrzedmiotNazwa": null,
+        "WycieczkaNazwa": null,
+        "IdPoraLekcji": 80,
+        "Data": "2022-06-20 00:00:00",
+        "LekcjaOddzialId": 0
+    },
+    {
+        "IdKategoria": 1,
+        "NrDnia": 2,
+        "Symbol": "●",
+        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACHSURBVFhH7ZZBCoAgEEW9pgfoEq47hLsu4aZLCJ3CbvGL1ELQosDI+A9m5QjzkD8oCCH1gRuhZAe51QALIBxlASbovb+Hcef9r+FF7g/09F41KNKKCDDDqHIWmhGxOkrEShdBEyLpZjpKryahhS9SjdJAv8nIFRSphR8on4Mcn/2iEPJbhFgAXyJEEWgRs3YAAAAASUVORK5CYII=",
+        "PrzedmiotNazwa": null,
+        "WycieczkaNazwa": null,
+        "IdPoraLekcji": 81,
+        "Data": "2022-06-21 00:00:00",
+        "LekcjaOddzialId": 0
+    },
+    {
+        "IdKategoria": 1,
+        "NrDnia": 2,
+        "Symbol": "●",
+        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACHSURBVFhH7ZZBCoAgEEW9pgfoEq47hLsu4aZLCJ3CbvGL1ELQosDI+A9m5QjzkD8oCCH1gRuhZAe51QALIBxlASbovb+Hcef9r+FF7g/09F41KNKKCDDDqHIWmhGxOkrEShdBEyLpZjpKryahhS9SjdJAv8nIFRSphR8on4Mcn/2iEPJbhFgAXyJEEWgRs3YAAAAASUVORK5CYII=",
+        "PrzedmiotNazwa": null,
+        "WycieczkaNazwa": null,
+        "IdPoraLekcji": 82,
+        "Data": "2022-06-21 00:00:00",
+        "LekcjaOddzialId": 0
+    },
+    {
+        "IdKategoria": 1,
+        "NrDnia": 2,
+        "Symbol": "●",
+        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACHSURBVFhH7ZZBCoAgEEW9pgfoEq47hLsu4aZLCJ3CbvGL1ELQosDI+A9m5QjzkD8oCCH1gRuhZAe51QALIBxlASbovb+Hcef9r+FF7g/09F41KNKKCDDDqHIWmhGxOkrEShdBEyLpZjpKryahhS9SjdJAv8nIFRSphR8on4Mcn/2iEPJbhFgAXyJEEWgRs3YAAAAASUVORK5CYII=",
+        "PrzedmiotNazwa": null,
+        "WycieczkaNazwa": null,
+        "IdPoraLekcji": 83,
+        "Data": "2022-06-21 00:00:00",
+        "LekcjaOddzialId": 0
+    },
+    {
+        "IdKategoria": 2,
+        "NrDnia": 3,
+        "Symbol": "▬",
+        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB1SURBVFhHY/i/rP3/cMCjHhlseIR7ZFb5/6rI1P+RYFz4/xw2NUTjmv8z4GZl/98yC5sawpgCj5BvKVZMoZmjHhn1CC486hEIppJHkEseYjFaaTfqEQgeTVqjHsGFB84jONI6yXggmyiDEI96ZLDhYeKR9v8A4Msbn+ZV0/kAAAAASUVORK5CYII=",
+        "PrzedmiotNazwa": "Informatyka",
+        "WycieczkaNazwa": null,
+        "IdPoraLekcji": 84,
+        "Data": "2022-06-22 00:00:00",
+        "LekcjaOddzialId": 0
+    },
+    {
+        "IdKategoria": 2,
+        "NrDnia": 3,
+        "Symbol": "▬",
+        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB1SURBVFhHY/i/rP3/cMCjHhlseIR7ZFb5/6rI1P+RYFz4/xw2NUTjmv8z4GZl/98yC5sawpgCj5BvKVZMoZmjHhn1CC486hEIppJHkEseYjFaaTfqEQgeTVqjHsGFB84jONI6yXggmyiDEI96ZLDhYeKR9v8A4Msbn+ZV0/kAAAAASUVORK5CYII=",
+        "PrzedmiotNazwa": null,
+        "WycieczkaNazwa": null,
+        "IdPoraLekcji": 85,
+        "Data": "2022-06-22 00:00:00",
+        "LekcjaOddzialId": 0
+    },
+    {
+        "IdKategoria": 2,
+        "NrDnia": 3,
+        "Symbol": "▬",
+        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB1SURBVFhHY/i/rP3/cMCjHhlseIR7ZFb5/6rI1P+RYFz4/xw2NUTjmv8z4GZl/98yC5sawpgCj5BvKVZMoZmjHhn1CC486hEIppJHkEseYjFaaTfqEQgeTVqjHsGFB84jONI6yXggmyiDEI96ZLDhYeKR9v8A4Msbn+ZV0/kAAAAASUVORK5CYII=",
+        "PrzedmiotNazwa": null,
+        "WycieczkaNazwa": null,
+        "IdPoraLekcji": 86,
+        "Data": "2022-06-22 00:00:00",
+        "LekcjaOddzialId": 0
+    },
+    {
+        "IdKategoria": 2,
+        "NrDnia": 3,
+        "Symbol": "▬",
+        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB1SURBVFhHY/i/rP3/cMCjHhlseIR7ZFb5/6rI1P+RYFz4/xw2NUTjmv8z4GZl/98yC5sawpgCj5BvKVZMoZmjHhn1CC486hEIppJHkEseYjFaaTfqEQgeTVqjHsGFB84jONI6yXggmyiDEI96ZLDhYeKR9v8A4Msbn+ZV0/kAAAAASUVORK5CYII=",
+        "PrzedmiotNazwa": "Fizyka",
+        "WycieczkaNazwa": null,
+        "IdPoraLekcji": 87,
+        "Data": "2022-06-22 00:00:00",
+        "LekcjaOddzialId": 0
+    },
+    {
+        "IdKategoria": 2,
+        "NrDnia": 3,
+        "Symbol": "▬",
+        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB1SURBVFhHY/i/rP3/cMCjHhlseIR7ZFb5/6rI1P+RYFz4/xw2NUTjmv8z4GZl/98yC5sawpgCj5BvKVZMoZmjHhn1CC486hEIppJHkEseYjFaaTfqEQgeTVqjHsGFB84jONI6yXggmyiDEI96ZLDhYeKR9v8A4Msbn+ZV0/kAAAAASUVORK5CYII=",
+        "PrzedmiotNazwa": null,
+        "WycieczkaNazwa": null,
+        "IdPoraLekcji": 88,
+        "Data": "2022-06-22 00:00:00",
+        "LekcjaOddzialId": 0
+    },
+    {
+        "IdKategoria": 2,
+        "NrDnia": 3,
+        "Symbol": "▬",
+        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB1SURBVFhHY/i/rP3/cMCjHhlseIR7ZFb5/6rI1P+RYFz4/xw2NUTjmv8z4GZl/98yC5sawpgCj5BvKVZMoZmjHhn1CC486hEIppJHkEseYjFaaTfqEQgeTVqjHsGFB84jONI6yXggmyiDEI96ZLDhYeKR9v8A4Msbn+ZV0/kAAAAASUVORK5CYII=",
+        "PrzedmiotNazwa": null,
+        "WycieczkaNazwa": null,
+        "IdPoraLekcji": 89,
+        "Data": "2022-06-22 00:00:00",
+        "LekcjaOddzialId": 0
+    }
 ]
