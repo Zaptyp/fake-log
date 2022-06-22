@@ -130,27 +130,5 @@
         "IdPoraLekcji": 87,
         "Data": "2018-04-25 00:00:00",
         "LekcjaOddzialId": 0
-    },
-    {
-        "IdKategoria": 2,
-        "NrDnia": 3,
-        "Symbol": "▬",
-        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB1SURBVFhHY/i/rP3/cMCjHhlseIR7ZFb5/6rI1P+RYFz4/xw2NUTjmv8z4GZl/98yC5sawpgCj5BvKVZMoZmjHhn1CC486hEIppJHkEseYjFaaTfqEQgeTVqjHsGFB84jONI6yXggmyiDEI96ZLDhYeKR9v8A4Msbn+ZV0/kAAAAASUVORK5CYII=",
-        "PrzedmiotNazwa": null,
-        "WycieczkaNazwa": null,
-        "IdPoraLekcji": 88,
-        "Data": "2018-04-25 00:00:00",
-        "LekcjaOddzialId": 0
-    },
-    {
-        "IdKategoria": 2,
-        "NrDnia": 3,
-        "Symbol": "▬",
-        "SymbolImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAUCAYAAADPym6aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB1SURBVFhHY/i/rP3/cMCjHhlseIR7ZFb5/6rI1P+RYFz4/xw2NUTjmv8z4GZl/98yC5sawpgCj5BvKVZMoZmjHhn1CC486hEIppJHkEseYjFaaTfqEQgeTVqjHsGFB84jONI6yXggmyiDEI96ZLDhYeKR9v8A4Msbn+ZV0/kAAAAASUVORK5CYII=",
-        "PrzedmiotNazwa": null,
-        "WycieczkaNazwa": null,
-        "IdPoraLekcji": 89,
-        "Data": "2018-04-25 00:00:00",
-        "LekcjaOddzialId": 0
     }
 ]
