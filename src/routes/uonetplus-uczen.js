@@ -179,16 +179,18 @@ router.all("/Diety.mvc/Get", (req, res) => {
 });
 
 router.all("/EgzaminySemestralne.mvc/Get", (req, res) => {
-    const examsemester = require("../../data/api/student/EgzaminySemestralne");
-    res.json({
-        "data": {
+    const examsemester = require("../../data/api/student/EgzaminySemestralne").map(item => {
+        return {
             "Pozycja": item.Pozycja,
             "Nazwa": item.Nazwa,
             "Laczna": item.Laczna,
             "Proponowana": item.Proponowana,
             "Ustna": item.Ustna,
             "Pisemna": item.Pisemna,
-        },
+        };
+    });
+    res.json({
+        "data": examsemester,
         "success": true
     });
 });
