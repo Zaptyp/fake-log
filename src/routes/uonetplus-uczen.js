@@ -275,7 +275,7 @@ router.all("/Frekwencja.mvc/Get", (req, res) => {
                     "PrzedmiotNazwa": item.PrzedmiotNazwa,
                     "WycieczkaNazwa": item.WycieczkaNazwa,
                     "IdPoraLekcji": item.IdPoraLekcji,
-                    "Data": item.Data + ` 00:00:00`,
+                    "Data": item.Data,
                     "LekcjaOddzialId": item.LekcjaOddzialId,
                 };
             })
