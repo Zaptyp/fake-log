@@ -213,6 +213,17 @@ router.all("/EwidencjaObecnosci.mvc/Get", (req, res) => {
     });
 });
 
+router.all("/DostepOffice.mvc/Get", (req, res) => {
+    res.json({
+        "data": {
+            "O365Login": "",
+            "O365Pass": "",
+            "Id": 12345
+        },
+        "success": true
+    });
+});
+
 router.all("/FormularzeSzablony.mvc/Get", (req, res) => {
     res.json({
         "data": {},
@@ -489,7 +500,11 @@ router.all("/OkresyUmowOplat.mvc/Get", (req, res) => {
 
 router.all("/Oplaty.mvc/Get", (req, res) => {
     res.json({
-        "data": {},
+        "data": {
+            "DataKomunikatu": converter.formatDate(new Date()),
+            "DataPobrania": null,
+            "Opis": null
+        },
         "success": true
     });
 });
