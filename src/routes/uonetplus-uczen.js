@@ -151,18 +151,19 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
             }).reverse();
         }, []).map(item => {
             return {
-                Id: item.OkresPoziom,
-                IdUczen: item.Id,
-                UczenImie: item.Imie,
-                UczenImie2: item.Imie2,
-                UczenNazwisko: item.Nazwisko,
-                IsDziennik: true,
-                IdDziennik: (item.OkresNumer === 1 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny - 1),
+                Id: item.Id,
+                IdUczen: item.IdUczen,
+                UczenImie: item.UczenImie,
+                UczenImie2: item.UczenImie2,
+                UczenNazwisko: item.UczenNazwisko,
+                UczenPseudonim: item.UczenPseudonim,
+                IsDziennik: item.IsDziennik,
+                IdDziennik: (item.NumerOkresu === 1 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny - 1),
                 IdPrzedszkoleDziennik: 0,
-                Poziom: item.OkresPoziom,
-                Symbol: item.OddzialSymbol,
+                Poziom: item.Poziom,
+                Symbol: item.Symbol,
                 Nazwa: null,
-                DziennikRokSzkolny: item.year,
+                DziennikRokSzkolny: item.DziennikRokSzkolny,
                 Okresy: [
                     item.OkresNumer === 1 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny - 1,
                     item.OkresNumer === 2 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny + 1
@@ -178,8 +179,15 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                         Id: semesterId
                     };
                 }),
-                DziennikDataOd: format(addMonths(item.OkresDataOd, 0), 'yyyy-MM-dd HH:mm:ss'),
-                DziennikDataDo: format(addMonths(item.OkresDataDo, 7), 'yyyy-MM-dd HH:mm:ss'),
+                UczenOddzialOkresy: require('../../data/api/ListaUczniow').reduce((res, current) => {
+                    return {
+                        DataOd: item.DataOd,
+                        DataDo: item.DataDo,
+                    }    
+                }),
+                DziennikDataOd: format(addMonths(item.DziennikDataOd, 0), 'yyyy-MM-dd HH:mm:ss'),
+                DziennikDataDo: format(addMonths(item.DziennikDataDo, 7), 'yyyy-MM-dd HH:mm:ss'),
+                "IdJednostkaSkladowa": 22,
                 "IdSioTyp": 11,
                 "IsDorosli": false,
                 "IsPolicealna": false,
@@ -188,7 +196,18 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                 "IsArtystyczna13": false,
                 "IsSpecjalny": false,
                 "IsPrzedszkola": false,
-                "UczenPelnaNazwa": `${item.OkresPoziom}${item.OddzialSymbol} ${item.year} - ${item.Imie} ${item.Nazwisko}`
+                "IsWychowankowie": false,
+                "IsArchiwalny": false,
+                "IsOplaty": false,
+                "IsPlatnosci": false,
+                "IsPayButtonOn": false,
+                "CanMergeAccounts": false,
+                "UczenPelnaNazwa": `${item.Poziom}${item.Symbol} ${item.year} - ${item.UczenImie} ${item.UczenNazwisko}`,
+                "O365PassType": 0,
+                "IsAdult": false,
+                "IsStudentParent": false,
+                "IsAuthorized": true,
+                "Obywatelstwo": 1
             };
         }),
         "success": true
