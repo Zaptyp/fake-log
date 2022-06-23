@@ -280,7 +280,7 @@ router.all("/Frekwencja.mvc/Get", (req, res) => {
                     "PrzedmiotNazwa": item.PrzedmiotNazwa,
                     "WycieczkaNazwa": item.WycieczkaNazwa,
                     "IdPoraLekcji": item.IdPoraLekcji,
-                    "Data": '${date} 00:00:00',
+                    "Data": `${date} 00:00:00`,
                     "LekcjaOddzialId": item.LekcjaOddzialId,
                 };
             })
