@@ -167,16 +167,16 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                 Okresy: [
                     item.OkresNumer === 1 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny - 1,
                     item.OkresNumer === 2 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny + 1
-                ].map((semesterId, i) => {
+                ].map((test, i) => {
                     return {
                         NumerOkresu: i + 1,
-                        Poziom: item.OkresPoziom,
-                        DataOd: item.DataOd,
-                        DataDo: item.DataDo,
-                        IdOddzial: item.IdOddzial,
-                        IdJednostkaSprawozdawcza: item.IdJednostkaSprawozdawcza,
+                        Poziom: test.OkresPoziom,
+                        DataOd: test.DataOd,
+                        DataDo: test.DataDo,
+                        IdOddzial: test.IdOddzial,
+                        IdJednostkaSprawozdawcza: test.IdJednostkaSprawozdawcza,
                         IsLastOkres: i === 1,
-                        Id: semesterId
+                        Id: test
                     };
                 }),
                 UczenOddzialOkresy: require('../../data/api/ListaUczniow').reduce((item => {
