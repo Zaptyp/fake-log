@@ -176,7 +176,7 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                         IdOddzial: i.IdOddzial,
                         IdJednostkaSprawozdawcza: i.IdJednostkaSprawozdawcza,
                         IsLastOkres: i === 1,
-                        Id: test
+                        Id: i.Id,
                     };
                 })),
                 UczenOddzialOkresy: require('../../data/api/ListaUczniow').reduce((item => {
