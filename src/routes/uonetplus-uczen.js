@@ -170,7 +170,7 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                 ].map((test, i) => {
                     return {
                         NumerOkresu: i + 1,
-                        Poziom: test.OkresyPoziom,
+                        Poziom: test.OkresPoziom,
                         DataOd: test.DataOd,
                         DataDo: test.DataDo,
                         IdOddzial: test.IdOddzial,
