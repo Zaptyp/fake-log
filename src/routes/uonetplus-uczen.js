@@ -748,14 +748,13 @@ router.all("/RejestracjaUrzadzeniaToken.mvc/Get", (req, res) => {
         "data": {
             "TokenId": 423,
             "TokenKey": "FK100000",
+            "IdLogin": 11111,
             "CustomerGroup": "powiatwulkanowy",
             "CustomerSymbol": student.JednostkaSprawozdawczaSymbol,
             "QrCodeContent": `CERT#${base}/powiatwulkanowy/mobile-api#FK100000#ENDCERT`,
             "QrCodeContentEncoded": "xxx", // TODO: create and use qr encrypt
             "QrCodeImage": "<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJMAAACTAQMAAACwK7lWAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB+klEQVRIieWWvY3EIBCFxyIggwaQaMMZLdkN+KcBb0tktIFEA96MAHnusV7pLvTEhzZYfwHyvHlvxkT/7VjmV2rLqM7AW+BLwgypV/VbIFv9NeJRwkJ51fJixZW3kQ8pS2Sjm7Q/5GzTzWi8EU1ShjqSm6jssfyt7QmDfsdYvr9fTR+xfoLaU5voFzxkNvIe3Rz50ETaXxJmgpsrhEcp2aa8SBgFPonPsZza710MCdPOkFuIN52H2oyEdZ+yQ9/eXM7QSMJM7xXvjL7RnO77njIacV+bRgjQbBUyXKkVR39oWFVtEmaT36gNzO+Uh3jr95QREpluDRSwjI2FE80xLwHGKZuEDZxtLcwIJazaJgmzld+Vz1AOXd7pvu8pG2ov3WhnY16hoox57kzt0SPcRsYIyRgSbN6m0ETMJrUFdaF67daYJwkzIc/oWPV75T19Z/ZDhnzgYHrNDJ8WETN0+6WtkdZKi4T1AcZugX4VucwkYZg9ay1bwIu47jgJo+D5MzjPkVb+5vIpG/Oa+vxbgoNnScJsVa/YhoSNgft4k7CP/AhHnjSKuHfUU4a+7SnP0b979766PGSf/YbFiF3hr28uHzMkEuKFbHSv4xCyrXeP4Jch3vNPwsY+OHu4qzMihjpi6XtV+5PKJWGf7yaFFYfPn4nwR8D+1/kBSYetNXqSF/8AAAAASUVORK5CYII=\" alt=\"Kod QR\" title=\"Kod QR\" height=\"400\" width=\"400\" />",
             "ImageSize": 400,
-            "IdLogin": student.UzytkownikLoginId,
-            "LoginValue": student.UzytkownikLogin,
             "PIN": "999999",
             "AntiForgeryAppGuid": secret,
             "AntiForgeryToken": token.create(secret)
@@ -1026,6 +1025,8 @@ router.all("/Homework.mvc/Get", (req, res) => {
                         "TeachersComment": null,
                         "Answer": null,
                         "AnswerAttachments": [],
+                        "ZadanieUrls": [],
+                        "ZadanieUczenUrls": [],
                         "CanReply": true,
                         "Readonly": true,
                         "Id": index,

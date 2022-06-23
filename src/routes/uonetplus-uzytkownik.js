@@ -63,12 +63,24 @@ router.get("/Wiadomosc.mvc/GetInboxMessages", (req, res) => {
                     "Role": 2,
                     "PushMessage": false,
                     "UnitId": 0,
-                    "Hash": "abcdef="
+                    "Hash": Buffer.from(md5(item.Id)).toString('base64')
                 },
                 "IdWiadomosci": item.WiadomoscId,
                 "HasZalaczniki": true,
                 "FolderWiadomosci": 1,
-                "Adresaci": []
+                "Adresaci": [
+                    {
+                        "Id": "11111",
+                        "Name": "Jan Kowalski - uczeń 4A (SP 1)",
+                        "IdLogin": 44433,
+                        "Unreaded": false,
+                        "Date": null,
+                        "Role": 1,
+                        "PushMessage": false,
+                        "UnitId": 0,
+                        "Hash": Buffer.from(md5(item.Id)).toString('base64')
+                    }
+                ]
             };
         })
     });
@@ -95,12 +107,24 @@ router.get("/Wiadomosc.mvc/GetOutboxMessages", (req, res) => {
                     "Role": 2,
                     "PushMessage": false,
                     "UnitId": 0,
-                    "Hash": "abcdef="
+                    "Hash": Buffer.from(md5(item.Id)).toString('base64')
                 },
                 "IdWiadomosci": item.WiadomoscId,
                 "HasZalaczniki": false,
                 "FolderWiadomosci": 2,
-                "Adresaci": []
+                "Adresaci": [
+                    {
+                        "Id": "11112",
+                        "Name": "Ślimakowski Mikołaj [ŚM] - Nauczyciel (SP 1)",
+                        "IdLogin": 25634,
+                        "Unreaded": false,
+                        "Date": null,
+                        "Role": 2,
+                        "PushMessage": false,
+                        "UnitId": 0,
+                        "Hash": Buffer.from(md5(item.Id)).toString('base64')
+                    }
+                ]
             };
         })
     });
@@ -146,7 +170,9 @@ router.get("/NowaWiadomosc.mvc/GetJednostkiUzytkownika", (req, res) => {
             {
                 "IdJednostkaSprawozdawcza": user.IdJednostkaSprawozdawcza,
                 "Skrot": user.JednostkaSprawozdawczaSkrot,
-                "Role": [1],
+                "Role": [
+                    1
+                ],
                 "NazwaNadawcy": user.Imie + " " + user.Nazwisko,
                 "WychowawcaWOddzialach": [],
                 "Id": user.Id
@@ -274,7 +300,7 @@ router.all("/Wiadomosc.mvc/GetMessageAddressee", (req, res) => {
                 "Name": `${recipient.Imie} ${recipient.Nazwisko} [${recipient.Kod}] - pracownik (${user.JednostkaSprawozdawczaSkrot})`,
                 "IdLogin": recipient.LoginId,
                 "Role": 7,
-                "Hash": "abcd==",
+                "Hash": Buffer.from(md5(item.LoginId)).toString('base64'),
             }
         ]
     });
@@ -308,7 +334,7 @@ router.all("/NowaWiadomosc.mvc/InsertWiadomosc", (req, res) => {
                 "UnitId": null,
                 "Role": 0,
                 "PushMessage": null,
-                "Hash": "hash"
+                "Hash": Buffer.from(md5(0)).toString('base64')
             },
             "WiadomoscPowitalna": false,
             "Id": data.Id

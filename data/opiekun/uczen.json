@@ -47,5 +47,6 @@
   "ImieNazwisko": "Maria Aneta Kamińska",
   "PosiadaPesel": true,
   "Polak": true,
-  "ImieMatkiIOjca": "Magdalena, Dawid"
+  "ImieMatkiIOjca": "Magdalena, Dawid",
+  "ShowPhoto": true
 }

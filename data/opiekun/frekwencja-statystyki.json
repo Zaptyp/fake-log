@@ -24,29 +24,29 @@
     "presence": 99,
     "absence": 3,
     "absenceExcused": 2,
-    "absenceForSchoolReasons": 0,
+    "absenceForSchoolReasons": null,
     "lateness": 5,
     "latenessExcused": 6,
-    "exemption": 0
+    "exemption": null
   },
   {
     "name": "XII",
     "presence": 55,
-    "absence": 0,
+    "absence": null,
     "absenceExcused": 33,
-    "absenceForSchoolReasons": 0,
+    "absenceForSchoolReasons": null,
     "lateness": 5,
-    "latenessExcused": 0,
-    "exemption": 0
+    "latenessExcused": null,
+    "exemption": null
   },
   {
     "name": "I",
     "presence": 88,
-    "absence": 0,
+    "absence": null,
     "absenceExcused": 2,
     "absenceForSchoolReasons": 5,
     "lateness": 5,
-    "latenessExcused": 0,
+    "latenessExcused": null,
     "exemption": 4
   },
   {
@@ -54,17 +54,17 @@
     "presence": 44,
     "absence": 3,
     "absenceExcused": 2,
-    "absenceForSchoolReasons": 0,
+    "absenceForSchoolReasons": null,
     "lateness": 5,
     "latenessExcused": 8,
-    "exemption": 0
+    "exemption": null
   },
   {
     "name": "III",
     "presence": 33,
-    "absence": 0,
+    "absence": null,
     "absenceExcused": 2,
-    "absenceForSchoolReasons": 0,
+    "absenceForSchoolReasons": null,
     "lateness": 5,
     "latenessExcused": 2,
     "exemption": 9
@@ -72,51 +72,51 @@
   {
     "name": "IV",
     "presence": 88,
-    "absence": 0,
+    "absence": null,
     "absenceExcused": 2,
     "absenceForSchoolReasons": 6,
     "lateness": 5,
-    "latenessExcused": 0,
-    "exemption": 0
+    "latenessExcused": null,
+    "exemption": null
   },
   {
     "name": "V",
     "presence": 99,
-    "absence": 0,
+    "absence": null,
     "absenceExcused": 2,
-    "absenceForSchoolReasons": 0,
+    "absenceForSchoolReasons": null,
     "lateness": 5,
-    "latenessExcused": 0,
-    "exemption": 0
+    "latenessExcused": null,
+    "exemption": null
   },
   {
     "name": "VI",
     "presence": 124,
     "absence": 6,
     "absenceExcused": 2,
-    "absenceForSchoolReasons": 0,
+    "absenceForSchoolReasons": null,
     "lateness": 5,
-    "latenessExcused": 0,
-    "exemption": 0
+    "latenessExcused": null,
+    "exemption": null
   },
   {
     "name": "VII",
-    "presence": 0,
-    "absence": 0,
-    "absenceExcused": 0,
-    "absenceForSchoolReasons": 0,
-    "lateness": 0,
-    "latenessExcused": 0,
-    "exemption": 0
+    "presence": null,
+    "absence": null,
+    "absenceExcused": null,
+    "absenceForSchoolReasons": null,
+    "lateness": null,
+    "latenessExcused": null,
+    "exemption": null
   },
   {
     "name": "VIII",
-    "presence": 0,
-    "absence": 0,
-    "absenceExcused": 0,
-    "absenceForSchoolReasons": 0,
-    "lateness": 0,
-    "latenessExcused": 0,
-    "exemption": 0
+    "presence": null,
+    "absence": null,
+    "absenceExcused": null,
+    "absenceForSchoolReasons": null,
+    "lateness": null,
+    "latenessExcused": null,
+    "exemption": null
   }
 ]
