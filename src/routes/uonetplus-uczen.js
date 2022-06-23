@@ -156,7 +156,7 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                 UczenImie: item.Imie,
                 UczenImie2: item.Imie2,
                 UczenNazwisko: item.Nazwisko,
-                UczenPseudonim: itemPsuedonim,
+                UczenPseudonim: item.Psuedonim,
                 IsDziennik: true,
                 IdDziennik: (item.OkresNumer === 1 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny - 1),
                 IdPrzedszkoleDziennik: 0,
