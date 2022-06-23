@@ -18,8 +18,8 @@
             {
                 "NumerOkresu": 1,
                 "Poziom": 8,
-                "DataOd": "2021-09-01",
-                "DataDo": "2022-01-30",
+                "DataOd": "2021-09-01 00:00:00",
+                "DataDo": "2022-01-30 00:00:00",
                 "IdOddzial": 410,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": false,
@@ -28,8 +28,8 @@
             {
                 "NumerOkresu": 2,
                 "Poziom": 8,
-                "DataOd": "2022-01-31",
-                "DataDo": "2022-08-31",
+                "DataOd": "2022-01-31 00:00:00",
+                "DataDo": "2022-08-31 00:00:00",
                 "IdOddzial": 410,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": true,
@@ -38,12 +38,12 @@
         ],
         "UczenOddzialOkresy": [
             {
-                "DataOd": "2020-09-01",
-                "DataDo": "2100-12-31"
+                "DataOd": "2020-09-01 00:00:00",
+                "DataDo": "2100-12-31 00:00:00"
             }
         ],
-        "DziennikDataOd": "2021-09-01",
-        "DziennikDataDo": "2022-08-31",
+        "DziennikDataOd": "2021-09-01 00:00:00",
+        "DziennikDataDo": "2022-08-31 00:00:00",
         "IdJednostkaSkladowa": 22,
         "IdSioTyp": 3,
         "IsDorosli": false,
@@ -85,8 +85,8 @@
             {
                 "NumerOkresu": 1,
                 "Poziom": 7,
-                "DataOd": "2020-09-01",
-                "DataDo": "2021-01-31",
+                "DataOd": "2020-09-01 00:00:00",
+                "DataDo": "2021-01-31 00:00:00",
                 "IdOddzial": 410,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": false,
@@ -95,8 +95,8 @@
             {
                 "NumerOkresu": 2,
                 "Poziom": 7,
-                "DataOd": "2021-02-01",
-                "DataDo": "2021-08-31",
+                "DataOd": "2021-02-01 00:00:00",
+                "DataDo": "2021-08-31 00:00:00",
                 "IdOddzial": 410,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": true,
@@ -105,12 +105,12 @@
         ],
         "UczenOddzialOkresy": [
             {
-                "DataOd": "2020-09-01",
-                "DataDo": "2100-12-31"
+                "DataOd": "2020-09-01 00:00:00",
+                "DataDo": "2100-12-31 00:00:00"
             }
         ],
-        "DziennikDataOd": "2020-09-01",
-        "DziennikDataDo": "2021-08-31",
+        "DziennikDataOd": "2020-09-01 00:00:00",
+        "DziennikDataDo": "2021-08-31 00:00:00",
         "IdJednostkaSkladowa": 22,
         "IdSioTyp": 3,
         "IsDorosli": false,
@@ -152,8 +152,8 @@
             {
                 "NumerOkresu": 1,
                 "Poziom": 6,
-                "DataOd": "2019-09-01",
-                "DataDo": "2020-02-09",
+                "DataOd": "2019-09-01 00:00:00",
+                "DataDo": "2020-02-09 00:00:00",
                 "IdOddzial": 412,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": false,
@@ -162,8 +162,8 @@
             {
                 "NumerOkresu": 2,
                 "Poziom": 6,
-                "DataOd": "2020-02-10",
-                "DataDo": "2020-08-31",
+                "DataOd": "2020-02-10 00:00:00",
+                "DataDo": "2020-08-31 00:00:00",
                 "IdOddzial": 412,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": true,
@@ -172,12 +172,12 @@
         ],
         "UczenOddzialOkresy": [
             {
-                "DataOd": "2014-09-01",
-                "DataDo": "2020-08-31"
+                "DataOd": "2014-09-01 00:00:00",
+                "DataDo": "2020-08-31 00:00:00"
             }
         ],
-        "DziennikDataOd": "2019-09-01",
-        "DziennikDataDo": "2020-08-31",
+        "DziennikDataOd": "2019-09-01 00:00:00",
+        "DziennikDataDo": "2020-08-31 00:00:00",
         "IdJednostkaSkladowa": 22,
         "IdSioTyp": 3,
         "IsDorosli": false,
@@ -219,8 +219,8 @@
             {
                 "NumerOkresu": 1,
                 "Poziom": 5,
-                "DataOd": "2018-09-01",
-                "DataDo": "2019-01-31",
+                "DataOd": "2018-09-01 00:00:00",
+                "DataDo": "2019-01-31 00:00:00",
                 "IdOddzial": 412,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": false,
@@ -229,8 +229,8 @@
             {
                 "NumerOkresu": 2,
                 "Poziom": 5,
-                "DataOd": "2019-02-01",
-                "DataDo": "2019-08-31",
+                "DataOd": "2019-02-01 00:00:00",
+                "DataDo": "2019-08-31 00:00:00",
                 "IdOddzial": 412,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": true,
@@ -239,12 +239,12 @@
         ],
         "UczenOddzialOkresy": [
             {
-                "DataOd": "2014-09-01",
-                "DataDo": "2020-08-31"
+                "DataOd": "2014-09-01 00:00:00",
+                "DataDo": "2020-08-31 00:00:00"
             }
         ],
-        "DziennikDataOd": "2018-09-01",
-        "DziennikDataDo": "2019-08-31",
+        "DziennikDataOd": "2018-09-01 00:00:00",
+        "DziennikDataDo": "2019-08-31 00:00:00",
         "IdJednostkaSkladowa": 22,
         "IdSioTyp": 3,
         "IsDorosli": false,
@@ -286,8 +286,8 @@
             {
                 "NumerOkresu": 1,
                 "Poziom": 4,
-                "DataOd": "2017-09-01",
-                "DataDo": "2018-01-31",
+                "DataOd": "2017-09-01 00:00:00",
+                "DataDo": "2018-01-31 00:00:00",
                 "IdOddzial": 412,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": false,
@@ -296,8 +296,8 @@
             {
                 "NumerOkresu": 2,
                 "Poziom": 4,
-                "DataOd": "2018-02-01",
-                "DataDo": "2018-08-31",
+                "DataOd": "2018-02-01 00:00:00",
+                "DataDo": "2018-08-31 00:00:00",
                 "IdOddzial": 412,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": true,
@@ -306,12 +306,12 @@
         ],
         "UczenOddzialOkresy": [
             {
-                "DataOd": "2014-09-01",
-                "DataDo": "2020-08-31"
+                "DataOd": "2014-09-01 00:00:00",
+                "DataDo": "2020-08-31 00:00:00"
             }
         ],
-        "DziennikDataOd": "2017-09-01",
-        "DziennikDataDo": "2018-08-31",
+        "DziennikDataOd": "2017-09-01 00:00:00",
+        "DziennikDataDo": "2018-08-31 00:00:00",
         "IdJednostkaSkladowa": 22,
         "IdSioTyp": 3,
         "IsDorosli": false,
@@ -353,8 +353,8 @@
             {
                 "NumerOkresu": 1,
                 "Poziom": 3,
-                "DataOd": "2016-09-01",
-                "DataDo": "2017-01-31",
+                "DataOd": "2016-09-01 00:00:00",
+                "DataDo": "2017-01-31 00:00:00",
                 "IdOddzial": 412,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": false,
@@ -363,8 +363,8 @@
             {
                 "NumerOkresu": 2,
                 "Poziom": 3,
-                "DataOd": "2017-02-01",
-                "DataDo": "2017-08-31",
+                "DataOd": "2017-02-01 00:00:00",
+                "DataDo": "2017-08-31 00:00:00",
                 "IdOddzial": 412,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": true,
@@ -373,12 +373,12 @@
         ],
         "UczenOddzialOkresy": [
             {
-                "DataOd": "2014-09-01",
-                "DataDo": "2020-08-31"
+                "DataOd": "2014-09-01 00:00:00",
+                "DataDo": "2020-08-31 00:00:00"
             }
         ],
-        "DziennikDataOd": "2016-09-01",
-        "DziennikDataDo": "2017-08-31",
+        "DziennikDataOd": "2016-09-01 00:00:00",
+        "DziennikDataDo": "2017-08-31 00:00:00",
         "IdJednostkaSkladowa": 22,
         "IdSioTyp": 3,
         "IsDorosli": false,
@@ -420,8 +420,8 @@
             {
                 "NumerOkresu": 1,
                 "Poziom": 2,
-                "DataOd": "2015-09-01",
-                "DataDo": "2016-01-31",
+                "DataOd": "2015-09-01 00:00:00",
+                "DataDo": "2016-01-31 00:00:00",
                 "IdOddzial": 412,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": false,
@@ -430,8 +430,8 @@
             {
                 "NumerOkresu": 2,
                 "Poziom": 2,
-                "DataOd": "2016-02-01",
-                "DataDo": "2016-08-31",
+                "DataOd": "2016-02-01 00:00:00",
+                "DataDo": "2016-08-31 00:00:00",
                 "IdOddzial": 412,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": true,
@@ -440,12 +440,12 @@
         ],
         "UczenOddzialOkresy": [
             {
-                "DataOd": "2014-09-01",
-                "DataDo": "2020-08-31"
+                "DataOd": "2014-09-01 00:00:00",
+                "DataDo": "2020-08-31 00:00:00"
             }
         ],
-        "DziennikDataOd": "2015-09-01",
-        "DziennikDataDo": "2016-08-31",
+        "DziennikDataOd": "2015-09-01 00:00:00",
+        "DziennikDataDo": "2016-08-31 00:00:00",
         "IdJednostkaSkladowa": 22,
         "IdSioTyp": 3,
         "IsDorosli": false,
@@ -487,8 +487,8 @@
             {
                 "NumerOkresu": 1,
                 "Poziom": 1,
-                "DataOd": "2014-09-01",
-                "DataDo": "2015-01-31",
+                "DataOd": "2014-09-01 00:00:00",
+                "DataDo": "2015-01-31 00:00:00",
                 "IdOddzial": 412,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": false,
@@ -497,8 +497,8 @@
             {
                 "NumerOkresu": 2,
                 "Poziom": 1,
-                "DataOd": "2015-02-01",
-                "DataDo": "2015-08-31",
+                "DataOd": "2015-02-01 00:00:00",
+                "DataDo": "2015-08-31 00:00:00",
                 "IdOddzial": 412,
                 "IdJednostkaSprawozdawcza": 9,
                 "IsLastOkres": true,
@@ -507,12 +507,12 @@
         ],
         "UczenOddzialOkresy": [
             {
-                "DataOd": "2014-09-01",
-                "DataDo": "2020-08-31"
+                "DataOd": "2014-09-01 00:00:00",
+                "DataDo": "2020-08-31 00:00:00"
             }
         ],
-        "DziennikDataOd": "2014-09-01",
-        "DziennikDataDo": "2015-08-31",
+        "DziennikDataOd": "2014-09-01 00:00:00",
+        "DziennikDataDo": "2015-08-31 00:00:00",
         "IdJednostkaSkladowa": 22,
         "IdSioTyp": 3,
         "IsDorosli": false,

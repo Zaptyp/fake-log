@@ -171,8 +171,8 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                     return {
                         NumerOkresu: i + 1,
                         Poziom: item.OkresPoziom,
-                        DataOd: format(addMonths(item.OkresDataOd, i * 5), 'yyyy-MM-dd HH:mm:ss'),
-                        DataDo: format(addMonths(item.OkresDataDo, i * 7), 'yyyy-MM-dd HH:mm:ss'),
+                        DataOd: item.DataOd,
+                        DataDo: item.DataDo,
                         IdOddzial: item.IdOddzial,
                         IdJednostkaSprawozdawcza: item.IdJednostkaSprawozdawcza,
                         IsLastOkres: i === 1,
