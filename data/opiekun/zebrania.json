@@ -1,20 +1,56 @@
 [
-  {
-    "Tytul": "środa, 08.01.2020 godzina 17:00, Spotkanie z rodzicami/opiekunami. sala 110",
-    "TematZebrania": "Podsumowanie I semestru - średnia klasy, oceny, frekwencja, zachowanie.",
-    "Agenda": "",
-    "ObecniNaZebraniu": "",
-    "DataSpotkania": "2020-01-08T17:00:00",
-    "ZebranieOnline": null,
-    "Id": 3737
-  },
-  {
-    "Tytul": "piątek, 06.09.2019 godzina 16:30, sala 130",
-    "TematZebrania": "Pierwsze - organizacyjne zebranie z rodzicami klas pierwszych",
-    "Agenda": "",
-    "ObecniNaZebraniu": "Kowalski Mieczysław",
-    "ZebranieOnline": null,
-    "DataSpotkania": "2019-09-06T16:30:00",
-    "Id": 2121
-  }
+    {
+        "Tytul": "środa, 08.01.2020 godzina 17:00, Spotkanie z rodzicami/opiekunami. sala 110",
+        "TematZebrania": "Podsumowanie I semestru - średnia klasy, oceny, frekwencja, zachowanie.",
+        "Agenda": "",
+        "ObecniNaZebraniu": "",
+        "DataSpotkania": "2020-01-08T17:00:00",
+        "ZebranieOnline": null,
+        "Id": 3737
+    },
+    {
+        "Tytul": "piątek, 06.09.2019 godzina 16:30, sala 130",
+        "TematZebrania": "Pierwsze - organizacyjne zebranie z rodzicami klas pierwszych",
+        "Agenda": "",
+        "ObecniNaZebraniu": "Kowalski Mieczysław",
+        "ZebranieOnline": null,
+        "DataSpotkania": "2019-09-06T16:30:00",
+        "Id": 2121
+    },
+    {
+        "Tytul": "wtorek, 05.04.2022 godzina 18:30, Szkoła Podstawowa nr 2",
+        "TematZebrania": "Zebranie nr 4",
+        "Agenda": "",
+        "ObecniNaZebraniu": "Kowalski Mieczysław",
+        "ZebranieOnline": null,
+        "DataSpotkania": "2022-04-05T18:30:00",
+        "Id": 8408
+    },
+    {
+        "Tytul": "wtorek, 08.02.2022 godzina 18:00",
+        "TematZebrania": "Zebranie nr 3",
+        "Agenda": "1. Przypomnienie procedury zapewnienia bezpieczeństwa i zdrowia przebywającym w SP nr 2 (Covid-19).\n2.  Przypomnienie  Rodzicom uczniów ważnych terminów związanych ze sprawdzianem klas VIII.\n3. Zapoznanie Rodziców uczniów z procedurami przeprowadzania egzaminu ósmoklasisty.\n4. Zapoznanie Rodziców z wynikami egzaminu próbnego – prezentacja.\n5. Podsumowanie wyników nauczania i zachowania w I okresie.\n6. Pogadanka- Bezpieczny Internet.\n7. Sprawy różne.\n8. Rozmowy indywidualne.\n",
+        "ObecniNaZebraniu": "Kowalski Mieczysław",
+        "ZebranieOnline": null,
+        "DataSpotkania": "2022-02-08T18:00:00",
+        "Id": 7907
+    },
+    {
+        "Tytul": "wtorek, 23.11.2021 godzina 18:00",
+        "TematZebrania": "Zebranie nr 2",
+        "Agenda": "Komunikat Dyrektora Szkoły\nSprawy dydaktyczno-wychowawcze\n\nPogadanki:\n1. Procedury bezpieczeństwa Covid-19.\n2. Zasady usprawiedliwianie nieobecności.\n3. Używanie przez uczniów telefonów komórkowych.\n",
+        "ObecniNaZebraniu": "Kowalski Mieczysław",
+        "ZebranieOnline": null,
+        "DataSpotkania": "2021-11-23T18:00:00",
+        "Id": 6235
+    },
+    {
+        "Tytul": "niedziela, 10.10.2021 godzina 18:30, 232 B",
+        "TematZebrania": "Zebranie nr 1",
+        "Agenda": "ZAPOZNANIE RODZICÓW UCZNIÓW Z:\nPROCEDURAMI ORAZ REGULAMINAMI COVID-19,\nREGULAMINEM SZKOŁY, PLANEM WSPÓŁPRACY Z RODZICAMI,REGULAMINEM KORZYSTANIA Z PODRĘCZNIKÓW,\nPROGRAMEM REALIZACJI WEWNĄTRZSZKOLNEGO SYSTEMU DORADZTWA ZAWODOWEGO,\nPROJEKTEM PROGRAMU WYCHOWAWCZO-PROFILAKTYCZNEGO.\nPRZEKAZANIE RODZICOM INFORMACJI O PROCEDURACH OBOWIĄZUJĄCYCH NA EGZAMINIE ÓSMOKLASISTY, MOŻLIWYCH DOSTOSOWANIACH FORMY I WARUNKÓW EGZAMINU ÓSMOKLASISTY ORAZ O TYM, JAKIE DOKUMENTY STANOWIĄ PODSTAWĘ DO DOSTOSOWAŃ.\n\n\n",
+        "ObecniNaZebraniu": "",
+        "ZebranieOnline": null,
+        "DataSpotkania": "2021-10-10T18:30:00",
+        "Id": 5899
+    }
 ]

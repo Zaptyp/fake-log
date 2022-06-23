@@ -743,6 +743,13 @@ router.all("/RejestracjaUrzadzeniaToken.mvc/Get", (req, res) => {
     });
 });
 
+router.all("/LekcjeZaplanowane.mvc/GetZaplanowane", (req, res) => {
+    res.json({
+        "data": require("../../data/opiekun/lekcje-zaplanowane"),
+        "success": true
+    });
+});
+
 router.all("/RejestracjaUrzadzeniaToken.mvc/Delete", (req, res) => {
     res.json({
         "data": {},

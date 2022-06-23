@@ -1,12 +1,37 @@
 [
-  {
-    "NazwaUrzadzenia": "To Be Filled By O.E.M.#To Be Filled By O.E.M. (Windows 8.1)",
-    "DataUtworzenia": "2015-06-15 20:00:00",
-    "Id": 1233
-  },
-  {
-    "NazwaUrzadzenia": "Wulkanowy (Android 10.0.0)",
-    "DataUtworzenia": "2015-06-15 20:00:00",
-    "Id": 1234
-  }
+    {
+        "NazwaUrzadzenia": "Szkolny.eu - nie usuwać",
+        "DataUtworzenia": "2022-02-11 22:01:35",
+        "DataModyfikacji": "2022-06-22 08:07:42",
+        "IdentyfikatorUrzadzenia": "C34D63BB-F9F7-AA32-1111-222F56784E7A",
+        "Id": -6969
+    },
+    {
+        "NazwaUrzadzenia": "Wulkanowy (Android 10.0.0)",
+        "DataUtworzenia": "2022-02-11 21:48:10",
+        "DataModyfikacji": "2022-06-19 13:18:57",
+        "IdentyfikatorUrzadzenia": "A34D63BB-F9F7-AA32-1111-222F56784E7A",
+        "Id": -2137
+    },
+    {
+        "NazwaUrzadzenia": "To Be Filled By O.E.M.#To Be Filled By O.E.M. (Windows 8.1)",
+        "DataUtworzenia": "2021-12-02 16:23:10",
+        "DataModyfikacji": "2022-01-02 16:39:54",
+        "IdentyfikatorUrzadzenia": "D34D63BB-F9F7-AA32-1111-222F56784E7A",
+        "Id": -1234
+    },
+    {
+        "NazwaUrzadzenia": "Wulkanowy (Android 8.0.0)",
+        "DataUtworzenia": "2021-12-11 09:17:51",
+        "DataModyfikacji": "2021-12-11 09:17:58",
+        "IdentyfikatorUrzadzenia": "GF9071EB-29D2-490F-9439-0B2BAFEAFC79",
+        "Id": -2115
+    },
+    {
+        "NazwaUrzadzenia": "Wulkanowy (Android 9.0.0)",
+        "DataUtworzenia": "2021-10-30 15:42:20",
+        "DataModyfikacji": "2021-10-30 15:42:28",
+        "IdentyfikatorUrzadzenia": "E34D63BB-F9F7-AA32-0001-166F72616E7A",
+        "Id": -1818
+    }
 ]

@@ -1,0 +1,78 @@
+[
+    {
+        "IdPrzedmiot": -1,
+        "Nazwa": "Wszystkie"
+    },
+    {
+        "IdPrzedmiot": 2031,
+        "Nazwa": "Język polski"
+    },
+    {
+        "IdPrzedmiot": 2077,
+        "Nazwa": "Historia"
+    },
+    {
+        "IdPrzedmiot": 2036,
+        "Nazwa": "Język niemiecki"
+    },
+    {
+        "IdPrzedmiot": 2098,
+        "Nazwa": "Informatyka"
+    },
+    {
+        "IdPrzedmiot": 2121,
+        "Nazwa": "Zajęcia z wychowawcą"
+    },
+    {
+        "IdPrzedmiot": 2029,
+        "Nazwa": "Etyka"
+    },
+    {
+        "IdPrzedmiot": 2028,
+        "Nazwa": "Religia"
+    },
+    {
+        "IdPrzedmiot": 2085,
+        "Nazwa": "Matematyka"
+    },
+    {
+        "IdPrzedmiot": 2102,
+        "Nazwa": "Wychowanie fizyczne"
+    },
+    {
+        "IdPrzedmiot": 2118,
+        "Nazwa": "Wychowanie do życia w rodzinie"
+    },
+    {
+        "IdPrzedmiot": 2090,
+        "Nazwa": "Biologia"
+    },
+    {
+        "IdPrzedmiot": 2091,
+        "Nazwa": "Geografia"
+    },
+    {
+        "IdPrzedmiot": 2088,
+        "Nazwa": "Chemia"
+    },
+    {
+        "IdPrzedmiot": 7222,
+        "Nazwa": "Doradztwo zawodowe"
+    },
+    {
+        "IdPrzedmiot": 2032,
+        "Nazwa": "Język angielski"
+    },
+    {
+        "IdPrzedmiot": 2086,
+        "Nazwa": "Fizyka"
+    },
+    {
+        "IdPrzedmiot": 2083,
+        "Nazwa": "Wiedza o społeczeństwie"
+    },
+    {
+        "IdPrzedmiot": 2115,
+        "Nazwa": "Edukacja dla bezpieczeństwa"
+    }
+]
