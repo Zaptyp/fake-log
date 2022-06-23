@@ -460,8 +460,8 @@ router.all("/LekcjeZrealizowane.mvc/GetPrzedmioty", (req, res) => {
 
 router.all("/LekcjeZrealizowane.mvc/GetZrealizowane", (req, res) => {
     const realized = require("../../data/opiekun/plan-zrealizowane");
-    const requestDate = req.body.poczatek ? parseISO(req.body.poczatek.replace("T", " ").replace(/Z$/, '')) : parseISO(realized[0].date);
-    const baseOffset = differenceInDays(requestDate, parseISO(realized[0].date));
+    const requestDate = req.body.poczatek ? parseISO(req.body.poczatek.replace("T", " ").replace(/Z$/, '')) : parseISO(realized[0].Data);
+    const baseOffset = differenceInDays(requestDate, parseISO(realized[0].Data));
 
     res.json({
         "data": _.groupBy(realized.map(item => {
@@ -471,7 +471,7 @@ router.all("/LekcjeZrealizowane.mvc/GetZrealizowane", (req, res) => {
                 "Przedmiot": item.Przedmiot,
                 "NrLekcji": item.NrLekcji,
                 "Temat": item.Temat,
-                "Nauczyciel": `${item.teacher}`,
+                "Nauczyciel": `${item.Nauczyciel}`,
                 "Zastepstwo": item.Zastepstwo,
                 "Nieobecnosc": item.Nieobecnosc,
                 "PseudonimUcznia": null,
