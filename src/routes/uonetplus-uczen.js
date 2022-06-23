@@ -151,42 +151,37 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
             }).reverse();
         }, []).map(item => {
             return {
-                Id: item.Id,
-                IdUczen: item.IdUczen,
-                UczenImie: item.UczenImie,
-                UczenImie2: item.UczenImie2,
-                UczenNazwisko: item.UczenNazwisko,
-                UczenPseudonim: item.UczenPseudonim,
-                IsDziennik: item.IsDziennik,
-                IdDziennik: (item.NumerOkresu === 1 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny - 1),
+                Id: item.OkresPoziom,
+                IdUczen: item.Id,
+                UczenImie: item.Imie,
+                UczenImie2: item.Imie2,
+                UczenNazwisko: item.Nazwisko,
+                UczenPseudonim: itemPsuedonim,
+                IsDziennik: true,
+                IdDziennik: (item.OkresNumer === 1 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny - 1),
                 IdPrzedszkoleDziennik: 0,
-                Poziom: item.Poziom,
-                Symbol: item.Symbol,
+                IdWychowankowieDziennik: 0,
+                Poziom: item.OkresPoziom,
+                Symbol: item.OddzialSymbol,
                 Nazwa: null,
-                DziennikRokSzkolny: item.DziennikRokSzkolny,
+                DziennikRokSzkolny: item.year,
                 Okresy: [
                     item.OkresNumer === 1 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny - 1,
                     item.OkresNumer === 2 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny + 1
-                ].map((i => {
+                ].map((semesterId, i) => {
                     return {
                         NumerOkresu: i + 1,
-                        Poziom: null,
-                        DataOd: null,
-                        DataDo: i.DataDo,
-                        IdOddzial: i.IdOddzial,
-                        IdJednostkaSprawozdawcza: i.IdJednostkaSprawozdawcza,
+                        Poziom: item.OkresPoziom,
+                        DataOd: format(addMonths(item.OkresDataOd, i * 5), 'yyyy-MM-dd HH:mm:ss'),
+                        DataDo: format(addMonths(item.OkresDataDo, i * 7), 'yyyy-MM-dd HH:mm:ss'),
+                        IdOddzial: item.IdOddzial,
+                        IdJednostkaSprawozdawcza: item.IdJednostkaSprawozdawcza,
                         IsLastOkres: i === 1,
-                        Id: i.Id,
+                        Id: semesterId
                     };
-                })),
-                UczenOddzialOkresy: require('../../data/api/ListaUczniow').map((item => {
-                    return {
-                        DataOd: item.DataOd,
-                        DataDo: item.DataDo,
-                    }    
-                })),
-                DziennikDataOd: item.DziennikDataOd,
-                DziennikDataDo: item.DziennikDataDo,
+                }),
+                DziennikDataOd: format(addMonths(item.OkresDataOd, 0), 'yyyy-MM-dd HH:mm:ss'),
+                DziennikDataDo: format(addMonths(item.OkresDataDo, 7), 'yyyy-MM-dd HH:mm:ss'),
                 "IdJednostkaSkladowa": 22,
                 "IdSioTyp": 11,
                 "IsDorosli": false,
@@ -202,7 +197,7 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                 "IsPlatnosci": false,
                 "IsPayButtonOn": false,
                 "CanMergeAccounts": false,
-                "UczenPelnaNazwa": `${item.Poziom}${item.Symbol} ${item.DziennikRokSzkolny} - ${item.UczenImie} ${item.UczenNazwisko}`,
+                "UczenPelnaNazwa": `${item.OkresPoziom}${item.OddzialSymbol} ${item.year} - ${item.Imie} ${item.Nazwisko}`,
                 "O365PassType": 0,
                 "IsAdult": false,
                 "IsStudentParent": false,
