@@ -241,11 +241,18 @@ router.all("/EgzaminySemestralne.mvc/Get", (req, res) => {
 });
 
 router.all("/EgzaminyZewnetrzne.mvc/Get", (req, res) => {
+    const examzewswie = require("../../data/api/student/EgzaminyZewnetrzneSwiadectwa").map(item => {
+        return {
+            "Wydany": item.Wydany,
+            "NrSwiadectwa": item.NrSwiadectwa,
+            "RodzajKwalifikacji": item.RodzajKwalifikacji,
+        };
+    });
     res.json({
         "data": {
             "EgazminyZewnetrzne": [],
             "UczenHasKwalifikacje": false,
-            "SwiadectwaKwalifikacjiZawodowych": null
+            "SwiadectwaKwalifikacjiZawodowych": examzewswie,
         },
         "success": true
     });
