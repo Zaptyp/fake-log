@@ -7,7 +7,7 @@
         "PrzedmiotNazwa": null,
         "WycieczkaNazwa": null,
         "IdPoraLekcji": 76,
-        "Data": "2018-04-23 00:00:00",
+        "Data": "2018-04-23",
         "LekcjaOddzialId": 0
     },
     {
@@ -18,7 +18,7 @@
         "PrzedmiotNazwa": null,
         "WycieczkaNazwa": null,
         "IdPoraLekcji": 77,
-        "Data": "2018-04-23 00:00:00",
+        "Data": "2018-04-23",
         "LekcjaOddzialId": 0
     },
     {
@@ -29,7 +29,7 @@
         "PrzedmiotNazwa": null,
         "WycieczkaNazwa": null,
         "IdPoraLekcji": 78,
-        "Data": "2018-04-23 00:00:00",
+        "Data": "2018-04-23",
         "LekcjaOddzialId": 0
     },
     {
@@ -40,7 +40,7 @@
         "PrzedmiotNazwa": null,
         "WycieczkaNazwa": null,
         "IdPoraLekcji": 79,
-        "Data": "2018-04-23 00:00:00",
+        "Data": "2018-04-23",
         "LekcjaOddzialId": 0
     },
     {
@@ -51,7 +51,7 @@
         "PrzedmiotNazwa": null,
         "WycieczkaNazwa": null,
         "IdPoraLekcji": 80,
-        "Data": "2018-04-23 00:00:00",
+        "Data": "2018-04-23",
         "LekcjaOddzialId": 0
     },
     {
@@ -62,7 +62,7 @@
         "PrzedmiotNazwa": null,
         "WycieczkaNazwa": null,
         "IdPoraLekcji": 81,
-        "Data": "2018-04-24 00:00:00",
+        "Data": "2018-04-24",
         "LekcjaOddzialId": 0
     },
     {
@@ -73,7 +73,7 @@
         "PrzedmiotNazwa": null,
         "WycieczkaNazwa": null,
         "IdPoraLekcji": 82,
-        "Data": "2018-04-24 00:00:00",
+        "Data": "2018-04-24",
         "LekcjaOddzialId": 0
     },
     {
@@ -84,7 +84,7 @@
         "PrzedmiotNazwa": null,
         "WycieczkaNazwa": null,
         "IdPoraLekcji": 83,
-        "Data": "2018-04-24 00:00:00",
+        "Data": "2018-04-24",
         "LekcjaOddzialId": 0
     },
     {
@@ -95,7 +95,7 @@
         "PrzedmiotNazwa": "Informatyka",
         "WycieczkaNazwa": null,
         "IdPoraLekcji": 84,
-        "Data": "2018-04-24 00:00:00",
+        "Data": "2018-04-24",
         "LekcjaOddzialId": 0
     },
     {
@@ -106,7 +106,7 @@
         "PrzedmiotNazwa": null,
         "WycieczkaNazwa": null,
         "IdPoraLekcji": 85,
-        "Data": "2018-04-24 00:00:00",
+        "Data": "2018-04-24",
         "LekcjaOddzialId": 0
     },
     {
@@ -117,7 +117,7 @@
         "PrzedmiotNazwa": null,
         "WycieczkaNazwa": null,
         "IdPoraLekcji": 86,
-        "Data": "2018-04-25 00:00:00",
+        "Data": "2018-04-25",
         "LekcjaOddzialId": 0
     },
     {
@@ -128,7 +128,7 @@
         "PrzedmiotNazwa": "Fizyka",
         "WycieczkaNazwa": null,
         "IdPoraLekcji": 87,
-        "Data": "2018-04-25 00:00:00",
+        "Data": "2018-04-25",
         "LekcjaOddzialId": 0
     }
 ]
