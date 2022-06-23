@@ -1,7 +1,7 @@
 [
     {
       "IdOkresKlasyfikacyjny": 12,
-      "OkresPoziom": 8,
+      "OkresPoziom": 4,
       "OkresNumer": 2,
       "OkresDataOd": 1535752800,
       "OkresDataDo": 1548889200,
@@ -13,7 +13,6 @@
       "JednostkaSkrot": "Fake123456",
       "OddzialSymbol": "A",
       "OddzialKod": "4A",
-      "UzytkownikRola": "uczeń",
       "UzytkownikLogin": "jan@fakelog.cf",
       "UzytkownikLoginId": 2,
       "UzytkownikNazwa": "Joanna Czerwińska",
@@ -22,14 +21,14 @@
       "Imie": "Joanna",
       "Imie2": "Maria",
       "Nazwisko": "Czerwińska",
-      "Pseudonim": "",
+      "Pseudonim": "SzybkaJoanna69",
       "UczenPlec": 0,
       "Pozycja": 0,
       "LoginId": null
     },
     {
       "IdOkresKlasyfikacyjny": 12,
-      "OkresPoziom": 8,
+      "OkresPoziom": 4,
       "OkresNumer": 2,
       "OkresDataOd": 1535752800,
       "OkresDataDo": 1548889200,
@@ -50,7 +49,7 @@
       "Imie": "Jan",
       "Imie2": "Marek",
       "Nazwisko": "Kowalski",
-      "Pseudonim": "",
+      "Pseudonim": "Maruś",
       "UczenPlec": 1,
       "Pozycja": 0,
       "LoginId": null
