@@ -87,8 +87,8 @@ router.all("/UczenCache.mvc/Get", (req, res) => {
                     Nazwa: "" + item.Numer,
                     Numer: item.Numer,
                     Id: item.Id,
-                    Poczatek: "1900-01-01 " + item.PoczatekTekst,
-                    Koniec: "1900-01-01 " + item.KoniecTekst,
+                    Poczatek: "1900-01-01 " + item.Poczatek,
+                    Koniec: "1900-01-01 " + item.Koniec,
                     DataModyfikacji: item.DataModyfikacji,
                     IdJednostkaSprawozdawcza: item.IdJednostkaSprawozdawcza,
                     Id: item.Id,
@@ -459,7 +459,7 @@ router.all("/LekcjeZrealizowane.mvc/GetPrzedmioty", (req, res) => {
 });
 
 router.all("/LekcjeZrealizowane.mvc/GetZrealizowane", (req, res) => {
-    const realized = require("../../data/opiekun/plan-zrealizowane.json");
+    const realized = require("../../data/opiekun/plan-zrealizowane");
     const requestDate = req.body.poczatek ? parseISO(req.body.poczatek.replace("T", " ").replace(/Z$/, '')) : parseISO(realized[0].date);
     const baseOffset = differenceInDays(requestDate, parseISO(realized[0].date));
 
@@ -467,12 +467,12 @@ router.all("/LekcjeZrealizowane.mvc/GetZrealizowane", (req, res) => {
         "data": _.groupBy(realized.map(item => {
             return {
                 "IdLekcja": item.IdLekcja,
-                "Data": `${converter.formatDate(addDays(parseISO(item.date), baseOffset), true)} 00:00:00`,
-                "Przedmiot": item.subject,
-                "NrLekcji": item.number,
-                "Temat": item.topic,
-                "Nauczyciel": `${item.teacher} [${item.teacherSymbol}]`,
-                "Zastepstwo": "",
+                "Data": `${converter.formatDate(addDays(parseISO(item.Data), baseOffset), true)} 00:00:00`,
+                "Przedmiot": item.Przedmiot,
+                "NrLekcji": item.NrLekcji,
+                "Temat": item.Temat,
+                "Nauczyciel": `${item.teacher}`,
+                "Zastepstwo": item.Zastepstwo,
                 "Nieobecnosc": item.Nieobecnosc,
                 "PseudonimUcznia": null,
                 "ZasobyPubliczne": "",
