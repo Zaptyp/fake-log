@@ -167,7 +167,7 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                 Okresy: [
                     item.OkresNumer === 1 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny - 1,
                     item.OkresNumer === 2 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny + 1
-                ].map((test, i => {
+                ].map((i => {
                     return {
                         NumerOkresu: i + 1,
                         Poziom: i.OkresPoziom,
