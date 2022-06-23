@@ -169,9 +169,9 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                     item.OkresNumer === 2 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny + 1
                 ].map((i => {
                     return {
-                        NumerOkresu: i.NumerOkresu,
-                        Poziom: i.OkresPoziom,
-                        DataOd: i.DataOd,
+                        NumerOkresu: i + 1,
+                        Poziom: null,
+                        DataOd: null,
                         DataDo: i.DataDo,
                         IdOddzial: i.IdOddzial,
                         IdJednostkaSprawozdawcza: i.IdJednostkaSprawozdawcza,
@@ -179,7 +179,7 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                         Id: i.Id,
                     };
                 })),
-                UczenOddzialOkresy: require('../../data/api/ListaUczniow').reduce((item => {
+                UczenOddzialOkresy: require('../../data/api/ListaUczniow').map((item => {
                     return {
                         DataOd: item.DataOd,
                         DataDo: item.DataDo,
