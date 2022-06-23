@@ -254,12 +254,12 @@ router.all("/FormularzeWysylanie.mvc/Post", (req, res) => {
 
 router.all("/Frekwencja.mvc/Get", (req, res) => {
     const attendance = require("../../data/api/student/Frekwencje");
-    const attadancedata = require("../../data/api/student/FrekwencjeDni");
+    const attedancedata = require("../../data/api/student/FrekwencjeDni");
     res.json({
         "data": {
             "UsprawiedliwieniaAktywne": true,
-            "Dni": attadancedata.map((item) => {
-                let offset = (new Date(item.Data)).getDay() - (new Date(attendancedata[0].Data).getDay());
+            "Dni": attedancedata.map((item) => {
+                let offset = (new Date(item.Data)).getDay() - (new Date(attedancedata[0].Data).getDay());
                 let date;
                 if (req.body.data) {
                     date = converter.formatDate(addDays(new Date(req.body.data.replace(" ", "T").replace(/Z$/, '') + "Z"), offset), true);
