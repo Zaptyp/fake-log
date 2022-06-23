@@ -169,7 +169,7 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                     item.OkresNumer === 2 ? item.IdOkresKlasyfikacyjny : item.IdOkresKlasyfikacyjny + 1
                 ].map((i => {
                     return {
-                        NumerOkresu: i,NumerOkresu,
+                        NumerOkresu: i.NumerOkresu,
                         Poziom: i.OkresPoziom,
                         DataOd: i.DataOd,
                         DataDo: i.DataDo,
