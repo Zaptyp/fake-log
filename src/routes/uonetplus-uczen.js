@@ -259,8 +259,13 @@ router.all("/Frekwencja.mvc/Get", (req, res) => {
         "data": {
             "UsprawiedliwieniaAktywne": true,
             "Dni": attadancedata.map((item) => {
+                let offset = (new Date(item.Data)).getDay() - (new Date(attendancedata[0].Data).getDay());
+                let date;
+                if (req.body.data) {
+                    date = converter.formatDate(addDays(new Date(req.body.data.replace(" ", "T").replace(/Z$/, '') + "Z"), offset), true);
+                } else date = item.Data;
                 return {
-                    "Data": item.Data,
+                    "Data": `${date}`,
                     "NieobecnoscCalyDzien": item.NieobecnoscCalyDzien,
                     "UczenWOddziale": item.UczenWOddziale,
                 };
