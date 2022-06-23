@@ -179,12 +179,12 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                         Id: semesterId
                     };
                 }),
-                UczenOddzialOkresy: require('../../data/api/ListaUczniow').reduce((res, current) => {
+                UczenOddzialOkresy: require('../../data/api/ListaUczniow').reduce((item => {
                     return {
                         DataOd: item.DataOd,
                         DataDo: item.DataDo,
                     }    
-                }),
+                })),
                 DziennikDataOd: item.DziennikDataOd,
                 DziennikDataDo: item.DziennikDataDo,
                 "IdJednostkaSkladowa": 22,
