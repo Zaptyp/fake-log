@@ -185,8 +185,8 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                         DataDo: item.DataDo,
                     }    
                 }),
-                DziennikDataOd: format(addMonths(item.DziennikDataOd, 0), 'yyyy-MM-dd HH:mm:ss'),
-                DziennikDataDo: format(addMonths(item.DziennikDataDo, 7), 'yyyy-MM-dd HH:mm:ss'),
+                DziennikDataOd: item.DziennikDataOd,
+                DziennikDataDo: item.DziennikDataDo,
                 "IdJednostkaSkladowa": 22,
                 "IdSioTyp": 11,
                 "IsDorosli": false,
