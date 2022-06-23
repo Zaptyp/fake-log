@@ -82,23 +82,54 @@ router.get("/Start", (req, res) => {
 router.all("/UczenCache.mvc/Get", (req, res) => {
     res.json({
         "data": {
-            "czyOpiekun": false,
-            "czyJadlospis": false,
-            "czyOplaty": false,
             "poryLekcji": require("../../data/api/dictionaries/PoryLekcji").map(item => {
                 return {
-                    Id: item.Id,
-                    Numer: item.Numer,
-                    Poczatek: "1900-01-01 " + item.PoczatekTekst + ":00",
-                    Koniec: "1900-01-01 " + item.KoniecTekst + ":00",
-                    DataModyfikacji: "1900-01-01 00:00:00",
-                    IdJednostkaSprawozdawcza: 1,
                     Nazwa: "" + item.Numer,
-                    OkresDataOd: fromUnixTime(item.OkresDataOd)
+                    Numer: item.Numer,
+                    Id: item.Id,
+                    Poczatek: "1900-01-01 " + item.PoczatekTekst,
+                    Koniec: "1900-01-01 " + item.KoniecTekst,
+                    DataModyfikacji: item.DataModyfikacji,
+                    IdJednostkaSprawozdawcza: item.IdJednostkaSprawozdawcza,
+                    Id: item.Id,
                 };
             }),
             "pokazLekcjeZrealizowane": true,
-            "serverDate": format(new Date(), 'yyyy-MM-dd HH:mm:ss')
+            "pokazLekcjeZaplanowane": true,
+            "serverDate": format(new Date(), 'yyyy-MM-dd HH:mm:ss'),
+            "infoCookieUrl": "https://wulkanowy.github.io/polityka-cookies-w-aplikacjach-hostowanych",
+            "privacyPolicyUrl": "https://wulkanowy.github.io/polityka-prywatnosci",
+            "cookiePolicyUrl": "https://wulkanowy.github.io/polityka-cookies",
+            "infoEnclosureUrl": "https://wulkanowy.github.io/klauzula-informacji",
+            "accessDeclarationUrl": "https://wulkanowy.github.io/deklaracja-dostepu",
+            "isParentUser": false,
+            "isPupilUser": true,
+            "isMenuOn": false,
+            "isDostepOffice": false,
+            "isO365LoginOff": true,
+            "isO365PassOff": true,
+            "isHomeworksOneDriveAttachmentsOn": true,
+            "isHomeworksGoogleDriveAttachmentsOn": false,
+            "oneDriveClientId": "2851111-8456-4dbf-80c9-866742c86df",
+            "googleDriveClientId": "",
+            "googleDriveApiKey": "",
+            "modulNawigacja": {
+                "BiezacyLinki": [],
+                "ModulyLinki": {},
+                "PokazPodzialJednostki": false
+            },
+            "isPayButtonOn": false,
+            "isZglaszanieNieobecnosciOn": true,
+            "zglaszanieNieobecnosciConfig": [
+                {
+                    "idJednostkaSkladowa": 29,
+                    "mozeRodzicZglaszac": true,
+                    "dniPrzed": 0,
+                    "doGodziny": "08:00:00"
+                }
+            ],
+            "isBetacomOn": false,
+            "isPodrecznikiOn": true
         }, "success": true,
     });
 });
@@ -435,16 +466,19 @@ router.all("/LekcjeZrealizowane.mvc/GetZrealizowane", (req, res) => {
     res.json({
         "data": _.groupBy(realized.map(item => {
             return {
+                "IdLekcja": item.IdLekcja,
                 "Data": `${converter.formatDate(addDays(parseISO(item.date), baseOffset), true)} 00:00:00`,
                 "Przedmiot": item.subject,
                 "NrLekcji": item.number,
                 "Temat": item.topic,
                 "Nauczyciel": `${item.teacher} [${item.teacherSymbol}]`,
                 "Zastepstwo": "",
-                "Nieobecnosc": item.absence,
+                "Nieobecnosc": item.Nieobecnosc,
                 "PseudonimUcznia": null,
                 "ZasobyPubliczne": "",
-                "PrzedmiotDisplay": item.subject
+                "LekcjaZdalna": "",
+                "KolekcjePoLekcji": [],
+                "PrzedmiotDisplay": item.PrzedmiotDisplay
             };
         }), item => converter.formatDate(new Date(item.Data))),
         "success": true
