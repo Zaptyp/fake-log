@@ -267,6 +267,11 @@ router.all("/Frekwencja.mvc/Get", (req, res) => {
             }),
             "UsprawiedliwieniaWyslane": [],
             "Frekwencje": attendance.map((item) => {
+                let offset = (new Date(item.Data)).getDay() - (new Date(attendance[0].Data).getDay());
+                let date;
+                if (req.body.data) {
+                    date = converter.formatDate(addDays(new Date(req.body.data.replace(" ", "T").replace(/Z$/, '') + "Z"), offset), true);
+                } else date = item.Data;
                 return {
                     "IdKategoria": item.IdKategoria,
                     "NrDnia": item.NrDnia,
@@ -275,7 +280,7 @@ router.all("/Frekwencja.mvc/Get", (req, res) => {
                     "PrzedmiotNazwa": item.PrzedmiotNazwa,
                     "WycieczkaNazwa": item.WycieczkaNazwa,
                     "IdPoraLekcji": item.IdPoraLekcji,
-                    "Data": item.Data,
+                    "Data": $(date),
                     "LekcjaOddzialId": item.LekcjaOddzialId,
                 };
             })
