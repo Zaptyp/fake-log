@@ -170,11 +170,11 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                 ].map((test, i) => {
                     return {
                         NumerOkresu: i + 1,
-                        Poziom: test.OkresPoziom,
-                        DataOd: test.DataOd,
-                        DataDo: test.DataDo,
-                        IdOddzial: test.IdOddzial,
-                        IdJednostkaSprawozdawcza: test.IdJednostkaSprawozdawcza,
+                        Poziom: i.OkresPoziom,
+                        DataOd: i.DataOd,
+                        DataDo: i.DataDo,
+                        IdOddzial: i.IdOddzial,
+                        IdJednostkaSprawozdawcza: i.IdJednostkaSprawozdawcza,
                         IsLastOkres: i === 1,
                         Id: test
                     };
@@ -202,7 +202,7 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                 "IsPlatnosci": false,
                 "IsPayButtonOn": false,
                 "CanMergeAccounts": false,
-                "UczenPelnaNazwa": `${item.Poziom}${item.Symbol} ${item.year} - ${item.UczenImie} ${item.UczenNazwisko}`,
+                "UczenPelnaNazwa": `${item.Poziom}${item.Symbol} ${item.DziennikRokSzkolny} - ${item.UczenImie} ${item.UczenNazwisko}`,
                 "O365PassType": 0,
                 "IsAdult": false,
                 "IsStudentParent": false,
