@@ -807,8 +807,12 @@ router.all("/Sprawdziany.mvc/Get", (req, res) => {
                                 "Nazwa": subject.Nazwa,
                                 "Pracownik": `${teacher.Imie} ${teacher.Nazwisko} [${teacher.Kod}]`,
                                 "DataModyfikacji": `1970-01-01 00:00:00`,
+                                "GodzinaOd": null,
+                                "CzasTrwania": null,
                                 "Opis": item.Opis,
-                                "Rodzaj": item.RodzajNumer
+                                "Rodzaj": item.RodzajNumer,
+                                "SprawdzianUrls": [],
+                                "Id": 12345,
                             };
                         }),
                         "Pokazuj": i < 5
