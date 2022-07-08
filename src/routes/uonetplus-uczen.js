@@ -705,10 +705,21 @@ router.all("/Ogloszenia.mvc/Get", (req, res) => {
 });
 
 router.all("/PodrecznikiUcznia.mvc/Get", (req, res) => {
+    const podreczniki= require("../../data/api/student/Podreczniki").map(item => {
+        return {
+            "Opis": item.Opis,
+            "Tytul": item.Tytul,
+            "Autor": item.Autor,
+            "Wydawnictwo": item.Wydawnictwo,
+            "Przedmiot": item.Przedmiot,
+            "Aktywny": item.Aktywny,
+            "Id": item.Id,
+        };
+    });
     res.json({
         "data": {
             "IsZatwierdzone": false,
-            "Podreczniki": []
+            "Podreczniki": podreczniki,
         },
         "success": true
     });
