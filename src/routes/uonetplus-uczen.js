@@ -718,7 +718,7 @@ router.all("/PodrecznikiUcznia.mvc/Get", (req, res) => {
     });
     res.json({
         "data": {
-            "IsZatwierdzone": false,
+            "IsZatwierdzone": true,
             "Podreczniki": podreczniki,
         },
         "success": true
