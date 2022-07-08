@@ -79,9 +79,6 @@ router.get("/Start", (req, res) => {
     res.render("uczen/start");
 });
 
-router.get("/Start/", (req, res) => {
-    res.render("uczen/start");
-});
 
 router.all("/UczenCache.mvc/Get", (req, res) => {
     res.json({
