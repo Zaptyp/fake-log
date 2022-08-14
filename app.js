@@ -44,7 +44,7 @@ app.use((req, res, next) => {
   res.locals.uonetplusUrl = protocol(req) + "://" + req.get('host').replace("uonetplus-opiekun", "uonetplus");
   res.locals.currentHost = protocol(req) + "://" + req.get('host');
   res.locals.proto = protocol(req);
-  res.locals.host = req.get('host').replace(/(api|cufs|uonetplus|uonetplus-opiekun|uonetplus-uzytkownik)\./, "");
+  res.locals.host = req.get('host').replace(/(api|cufs|uonetplus|uonetplus-opiekun|uonetplus-uzytkownik|uonetplus-wiadomosciplus)\./, "");
 
   res.cookie("UonetPlus_ASP.NET_SessionId", "", { httpOnly: false, domain: req.get("host") });
   res.cookie("ARR_DS_ARR301302", "", { httpOnly: false, domain: req.get("host") });

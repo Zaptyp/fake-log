@@ -57,3 +57,5 @@ router.get("/StatystykiLogowan", (req, res) => {});
 router.get("/Skrzynki", (req, res) => {});
 router.get("/Kopia", (req, res) => {});
 router.get("/OdebraneSzczegolyArchiwum", (req, res) => {});
+
+module.exports = router;
