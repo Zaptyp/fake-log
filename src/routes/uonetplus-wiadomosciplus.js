@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 const protocol = require('../utils/connection');
 
-router.get("/api", (req, res) => {
-    const base = protocol(req) + "://" + req.get('host') + "/powiatwulkanowy";
+router.get("/", (req, res) => {
+    const base = protocol(req) + "://" + req.get('host') + "/powiatwulkanowy/api";
     res.json({
         status: "success",
         data: {

@@ -69,7 +69,7 @@ app.use(subdomain('uonetplus-uczen', uonetplusUczen.use('/powiatwulkanowy/123456
 app.use(subdomain('uonetplus-uczen', uonetplusUczen.use('/powiatwulkanowy/123457', uonetplusUczen)));
 app.use(subdomain('uonetplus-uczen', uonetplusUczen.use('/powiatwulkanowy/123458', uonetplusUczen)));
 app.use(subdomain('uonetplus-uzytkownik', uonetplusUzytkownik.use('/powiatwulkanowy', uonetplusUzytkownik)));
-app.use(subdomain('uonetplus-wiadomosciplus', uonetplusWiadomosciplus.use('/powiatwulkanowy', uonetplusWiadomosciplus)));
+app.use(subdomain('uonetplus-wiadomosciplus', uonetplusWiadomosciplus));
 app.use('/', index);
 
 // catch 404 and forward to error handler
