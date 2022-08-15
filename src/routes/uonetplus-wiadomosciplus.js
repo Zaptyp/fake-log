@@ -62,9 +62,9 @@ router.get("/powiatwulkanowy/api/Odebrane", (req, res) => {
             "id": item.id,
         };
     });
-    res.json([
+    res.json(
         OdebraneWia
-    ])
+    )
 });
 router.get("/powiatwulkanowy/api/Wyslane", (req, res) => {});
 router.get("/powiatwulkanowy/api/Usuniete", (req, res) => {});
