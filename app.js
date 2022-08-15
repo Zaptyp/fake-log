@@ -32,6 +32,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(expressValidator())
 app.use(sassMiddleware({
   src: path.join(__dirname, 'public'),
   dest: path.join(__dirname, 'public'),
@@ -71,7 +72,6 @@ app.use(subdomain('uonetplus-uczen', uonetplusUczen.use('/powiatwulkanowy/123457
 app.use(subdomain('uonetplus-uczen', uonetplusUczen.use('/powiatwulkanowy/123458', uonetplusUczen)));
 app.use(subdomain('uonetplus-uzytkownik', uonetplusUzytkownik.use('/powiatwulkanowy', uonetplusUzytkownik)));
 app.use(subdomain('uonetplus-wiadomosciplus', uonetplusWiadomosciplus));
-app.use(expressValidator())
 app.use('/', index);
 
 // catch 404 and forward to error handler
