@@ -48,9 +48,7 @@ router.get("/powiatwulkanowy/api/Cache", (req, res) => {
     });
     res.json(
         {
-            "links": [
-                CacheWiado
-            ],
+            "links": CacheWiado,
             "oneDriveClientId": "2851111-8456-4dbf-80c9-866742c86df",
             "googleDriveClientId": "",
             "googleDriveApiKey": "",
