@@ -38,7 +38,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/powiatwulkanowy/api/Cache", (req, res) => {
-    const CacheWia = require("../../data/uonetplus-wiadomosciplus/CacheLinki").map(item => {
+    const CacheWiado = require("../../data/uonetplus-wiadomosciplus/CacheLinki").map(item => {
         return {
             "elementy": item.elementy,
             "nazwa": item.nazwa,
@@ -49,7 +49,7 @@ router.get("/powiatwulkanowy/api/Cache", (req, res) => {
     res.json(
         {
             "links": [
-                CacheWia
+                CacheWiado
             ],
             "oneDriveClientId": "2851111-8456-4dbf-80c9-866742c86df",
             "googleDriveClientId": "",
