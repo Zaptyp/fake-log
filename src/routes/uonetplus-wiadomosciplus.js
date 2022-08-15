@@ -36,20 +36,7 @@ router.get("/", (req, res) => {
         }
     });
 });
-router.get("/powiatwulkanowy/api/Cache", (req, res) => {
-    const OdebraneWia = require("../../data/uonetplus-wiadomosciplus/CacheLinki").map(item => {
-        return {
-            "elementy": item.elementy,
-            "nazwa": item.nazwa,
-            "link": item.link,
-            "modul": item.modul,
-        };
-    });
-    res.json(
-        OdebraneWia
-    )
-});
-/*
+
 router.get("/powiatwulkanowy/api/Cache", (req, res) => {
     const CacheWiado = require("../../data/uonetplus-wiadomosciplus/CacheLinki").map(item => {
         return {
@@ -71,7 +58,6 @@ router.get("/powiatwulkanowy/api/Cache", (req, res) => {
         }
     )
 });
-*/
 router.get("/powiatwulkanowy/api/OdebraneNowe", (req, res) => {
 
 });
