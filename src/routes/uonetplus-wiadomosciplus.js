@@ -36,7 +36,9 @@ router.get("/", (req, res) => {
     });
 });
 
-router.get("/OdebraneNowe", (req, res) => {});
+router.get("/OdebraneNowe", (req, res) => {
+
+});
 router.get("/WyslaneNowe", (req, res) => {});
 router.get("/LiczbyNieodczytanych", (req, res) => {});
 router.get("/OdebraneSkrzynka", (req, res) => {});
@@ -44,7 +46,26 @@ router.get("/WyslaneSkrzynka", (req, res) => {});
 router.get("/UsunieteSkrzynka", (req, res) => {});
 router.get("/KopieSkrzynka", (req, res) => {});
 router.get("/DdsArchive", (req, res) => {});
-router.get("/Odebrane", (req, res) => {});
+router.get("/Odebrane", (req, res) => {
+    const OdebraneWia = require("../../data/uonetplus-wiadomosciplus/Odebrane").map(item => {
+        return {
+            "apiGlobalKey": item.apiGlobalKey,
+            "korespondenci": item.korespondenci,
+            "temat": item.temat,
+            "data": item.data,
+            "skrzynka": item.skrzynka,
+            "hasZalaczniki": item.hasZalaczniki,
+            "przeczytana": item.przeczytana,
+            "nieprzeczytanePrzeczytanePrzez": item.nieprzeczytanePrzeczytanePrzez,
+            "wazna": item.wazna,
+            "uzytkownikRola": item.uzytkownikRola,
+            "id": item.id,
+        };
+    });
+    res.json([
+        OdebraneWia
+    ])
+});
 router.get("/Wyslane", (req, res) => {});
 router.get("/Usuniete", (req, res) => {});
 router.get("/Kopie", (req, res) => {});
