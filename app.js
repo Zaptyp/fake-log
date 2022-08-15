@@ -4,6 +4,7 @@ const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const sassMiddleware = require('node-sass-middleware');
+const expressValidator = require('express-validator')
 const cors = require("cors");
 const eslint = require("eslint");
 const protocol = require("./src/utils/connection");
@@ -70,6 +71,7 @@ app.use(subdomain('uonetplus-uczen', uonetplusUczen.use('/powiatwulkanowy/123457
 app.use(subdomain('uonetplus-uczen', uonetplusUczen.use('/powiatwulkanowy/123458', uonetplusUczen)));
 app.use(subdomain('uonetplus-uzytkownik', uonetplusUzytkownik.use('/powiatwulkanowy', uonetplusUzytkownik)));
 app.use(subdomain('uonetplus-wiadomosciplus', uonetplusWiadomosciplus));
+app.use(expressValidator())
 app.use('/', index);
 
 // catch 404 and forward to error handler
