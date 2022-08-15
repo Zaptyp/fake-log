@@ -57,7 +57,7 @@ router.get("/powiatwulkanowy/api/Cache", (req, res) => {
             "wiadomoscPowitalnaOn": false
         }
     )
-})
+});
 router.get("/powiatwulkanowy/api/OdebraneNowe", (req, res) => {
 
 });
