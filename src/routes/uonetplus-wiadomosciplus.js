@@ -36,17 +36,17 @@ router.get("/", (req, res) => {
     });
 });
 
-router.get("/OdebraneNowe", (req, res) => {
+router.get("/powiatwulkanowy/api/OdebraneNowe", (req, res) => {
 
 });
-router.get("/WyslaneNowe", (req, res) => {});
-router.get("/LiczbyNieodczytanych", (req, res) => {});
-router.get("/OdebraneSkrzynka", (req, res) => {});
-router.get("/WyslaneSkrzynka", (req, res) => {});
-router.get("/UsunieteSkrzynka", (req, res) => {});
-router.get("/KopieSkrzynka", (req, res) => {});
-router.get("/DdsArchive", (req, res) => {});
-router.get("/Odebrane", (req, res) => {
+router.get("/powiatwulkanowy/api/WyslaneNowe", (req, res) => {});
+router.get("/powiatwulkanowy/api/LiczbyNieodczytanych", (req, res) => {});
+router.get("/powiatwulkanowy/api/OdebraneSkrzynka", (req, res) => {});
+router.get("/powiatwulkanowy/api/WyslaneSkrzynka", (req, res) => {});
+router.get("/powiatwulkanowy/api/UsunieteSkrzynka", (req, res) => {});
+router.get("/powiatwulkanowy/api/KopieSkrzynka", (req, res) => {});
+router.get("/powiatwulkanowy/api/DdsArchive", (req, res) => {});
+router.get("/powiatwulkanowy/api/Odebrane", (req, res) => {
     const OdebraneWia = require("../../data/uonetplus-wiadomosciplus/Odebrane").map(item => {
         return {
             "apiGlobalKey": item.apiGlobalKey,
@@ -66,17 +66,17 @@ router.get("/Odebrane", (req, res) => {
         OdebraneWia
     ])
 });
-router.get("/Wyslane", (req, res) => {});
-router.get("/Usuniete", (req, res) => {});
-router.get("/Kopie", (req, res) => {});
-router.get("/OdebraneArchiwum", (req, res) => {});
-router.get("/WyslaneArchiwum", (req, res) => {});
-router.get("/UsunieteArchiwum", (req, res) => {});
-router.get("/Ustawienia", (req, res) => {});
-router.get("/Stopka", (req, res) => {});
-router.get("/StatystykiLogowan", (req, res) => {});
-router.get("/Skrzynki", (req, res) => {});
-router.get("/Kopia", (req, res) => {});
-router.get("/OdebraneSzczegolyArchiwum", (req, res) => {});
+router.get("/powiatwulkanowy/api/Wyslane", (req, res) => {});
+router.get("/powiatwulkanowy/api/Usuniete", (req, res) => {});
+router.get("/powiatwulkanowy/api/Kopie", (req, res) => {});
+router.get("/powiatwulkanowy/api/OdebraneArchiwum", (req, res) => {});
+router.get("/powiatwulkanowy/api/WyslaneArchiwum", (req, res) => {});
+router.get("/powiatwulkanowy/api/UsunieteArchiwum", (req, res) => {});
+router.get("/powiatwulkanowy/api/Ustawienia", (req, res) => {});
+router.get("/powiatwulkanowy/api/Stopka", (req, res) => {});
+router.get("/powiatwulkanowy/api/StatystykiLogowan", (req, res) => {});
+router.get("/powiatwulkanowy/api/Skrzynki", (req, res) => {});
+router.get("/powiatwulkanowy/api/Kopia", (req, res) => {});
+router.get("/powiatwulkanowy/api/OdebraneSzczegolyArchiwum", (req, res) => {});
 
 module.exports = router;
