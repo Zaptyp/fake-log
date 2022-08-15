@@ -36,6 +36,7 @@ router.get("/", (req, res) => {
         }
     });
 });
+
 router.get("/powiatwulkanowy/api/Cache", (req, res) => {
     const CacheWia = require("../../data/uonetplus-wiadomosciplus/CacheLinki").map(item => {
         return {
