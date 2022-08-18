@@ -57,9 +57,11 @@ router.get("/powiatwulkanowy/api/Cache", (req, res) => {
     )
 });
 router.get("/powiatwulkanowy/api/OdebraneNowe", (req, res) => {
-
+    res.json([])
 });
-router.get("/powiatwulkanowy/api/WyslaneNowe", (req, res) => {});
+router.get("/powiatwulkanowy/api/WyslaneNowe", (req, res) => {
+    res.json([])
+});
 router.get("/powiatwulkanowy/api/LiczbyNieodczytanych", (req, res) => {});
 router.get("/powiatwulkanowy/api/OdebraneSkrzynka", (req, res) => {});
 router.get("/powiatwulkanowy/api/WyslaneSkrzynka", (req, res) => {});
