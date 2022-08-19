@@ -128,6 +128,34 @@ router.get("/powiatwulkanowy/api/Wyslane", (req, res) => {
 });
 router.get("/powiatwulkanowy/api/Usuniete", (req, res) => {});
 router.get("/powiatwulkanowy/api/Kopie", (req, res) => {});
+router.get("/powiatwulkanowy/api/WiadomoscSzczegoly", (req, res) => {
+    const reqID = req.query.apiGlobalKey
+    const WiadomosciSzczego = require("../../data/uonetplus-wiadomosciplus/WiaSzczegoly")
+    function WiadoSearch(GlobalKey) {
+        return WiadomosciSzczego.filter(
+          function(WiadomosciSzczego) {
+            return WiadomosciSzczego.apiGlobalKey == GlobalKey
+          }
+        );
+      }
+    var found = WiadoSearch(reqID)
+    Wiado = found.map(item => {
+        return {
+            "data": item.data,
+            "apiGlobalKey": item.apiGlobalKey,
+            "nadawca": item.nadawca,
+            "odbiorcy": item.odbiorcy,
+            "temat": item.temat,
+            "tresc": item.tresc,
+            "odczytana": item.odczytana,
+            "zalaczniki": item.zalaczniki,
+            "id": item.id
+        }
+    });
+    res.json(
+        Wiado
+    )
+});
 router.get("/powiatwulkanowy/api/OdebraneArchiwum", (req, res) => {});
 router.get("/powiatwulkanowy/api/WyslaneArchiwum", (req, res) => {});
 router.get("/powiatwulkanowy/api/UsunieteArchiwum", (req, res) => {});
