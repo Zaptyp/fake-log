@@ -152,7 +152,7 @@ router.get("/powiatwulkanowy/api/WiadomoscSzczegoly", (req, res) => {
             "id": item.id
         }
     });
-    res.text(
+    res.json(
         Wiado
     )
 });
