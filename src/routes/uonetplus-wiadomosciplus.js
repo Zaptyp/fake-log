@@ -9,6 +9,11 @@ router.get("/", (req, res) => {
         data: {
             endpoints: [
                 "/OdebraneNowe",
+                "/Uczniowie",
+                "/Opiekunowie",
+                "/GrupaAdresatow",
+                "/GrupyAdresatow",
+                "/Pracownicy",
                 "/WyslaneNowe",
                 "/LiczbyNieodczytanych",
                 "/OdebraneSkrzynka",
@@ -17,10 +22,20 @@ router.get("/", (req, res) => {
                 "/KopieSkrzynka",
                 "/DdsArchive",
                 "/Odebrane",
+                "/WiadomoscNowa",
+                "/WiadomoscOdpowiedzPrzekaz",
+                "/WiadomoscArchiwumOdpowiedzPrzekaz",
+                "/MoveTrash",
+                "/RestoreTrash",
+                "/DeleteArchiwum",
+                "/RestoreTrashArchiwum",
+                "/OdebraneWydruk",
+                "/WyslaneWydruk",
                 "/Cache",
                 "/Wyslane",
                 "/Usuniete",
                 "/Kopie",
+                "/WiadomoscSzczegoly",
                 "/OdebraneArchiwum",
                 "/WyslaneArchiwum",
                 "/UsunieteArchiwum",
@@ -29,7 +44,10 @@ router.get("/", (req, res) => {
                 "/StatystykiLogowan",
                 "/Skrzynki",
                 "/Kopia",
+                "/WiadomoscOdbiorcy",
                 "/OdebraneSzczegolyArchiwum",
+                "/WyslaneSzczegolyArchiwum",
+                "/UsunieteSzczegolyArchiwum",
             ].map(item => {
                 return base + item;
             })
@@ -113,7 +131,17 @@ router.get("/powiatwulkanowy/api/Kopie", (req, res) => {});
 router.get("/powiatwulkanowy/api/OdebraneArchiwum", (req, res) => {});
 router.get("/powiatwulkanowy/api/WyslaneArchiwum", (req, res) => {});
 router.get("/powiatwulkanowy/api/UsunieteArchiwum", (req, res) => {});
-router.get("/powiatwulkanowy/api/Ustawienia", (req, res) => {});
+router.get("/powiatwulkanowy/api/Ustawienia", (req, res) => {
+    const UstawieniaWia = require("../../data/uonetplus-wiadomosciplus/Ustawienia").map(item => {
+        return {
+            "stopka": item.stopka,
+            "trybWysylaniaPowiadomien": item.trybWysylaniaPowiadomien
+        }
+    });
+    res.json(
+        UstawieniaWia
+    )
+});
 router.get("/powiatwulkanowy/api/Stopka", (req, res) => {
     const StopkaWia = require("../../data/uonetplus-wiadomosciplus/Stopka").map(item => {
         return {
@@ -125,8 +153,21 @@ router.get("/powiatwulkanowy/api/Stopka", (req, res) => {
         StopkaWia
     )
 });
-router.get("/powiatwulkanowy/api/StatystykiLogowan", (req, res) => {});
-router.get("/powiatwulkanowy/api/Skrzynki", (req, res) => {});
+router.get("/powiatwulkanowy/api/StatystykiLogowan", (req, res) => {
+    res.json([])
+});
+router.get("/powiatwulkanowy/api/Skrzynki", (req, res) => {
+    const SkrzynkiWia = require("../../data/uonetplus-wiadomosciplus/Skrzynki").map(item => {
+        return {
+            "globalKey": item.globalKey,
+            "nazwa": item.nazwa,
+            "typUzytkownika": item.typUzytkownika
+        }
+    });
+    res.json(
+        SkrzynkiWia
+    )
+});
 router.get("/powiatwulkanowy/api/Kopia", (req, res) => {});
 router.get("/powiatwulkanowy/api/OdebraneSzczegolyArchiwum", (req, res) => {});
 
