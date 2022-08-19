@@ -152,9 +152,7 @@ router.get("/powiatwulkanowy/api/WiadomoscSzczegoly", (req, res) => {
             "id": item.id
         }
     });
-    res.json(
-        Wiado
-    )
+    res.json(Wiado[0])
 });
 router.get("/powiatwulkanowy/api/OdebraneArchiwum", (req, res) => {});
 router.get("/powiatwulkanowy/api/WyslaneArchiwum", (req, res) => {});
