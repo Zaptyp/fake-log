@@ -158,14 +158,24 @@ router.get("/powiatwulkanowy/api/OdebraneArchiwum", (req, res) => {});
 router.get("/powiatwulkanowy/api/WyslaneArchiwum", (req, res) => {});
 router.get("/powiatwulkanowy/api/UsunieteArchiwum", (req, res) => {});
 router.get("/powiatwulkanowy/api/Ustawienia", (req, res) => {
-    const UstawieniaWia = require("../../data/uonetplus-wiadomosciplus/Ustawienia").map(item => {
+    const reqID = req.query.apiGlobalKey
+    const UstawieniaWia = require("../../data/uonetplus-wiadomosciplus/Ustawienia")
+    function WiadoSearch(GlobalKey) {
+        return UstawieniaWia.filter(
+          function(UstawieniaWia) {
+            return UstawieniaWia.apiGlobalKey == GlobalKey
+          }
+        );
+      }
+      var found = WiadoSearch(reqID)
+      UstawieWia = found.map(item => {
         return {
             "stopka": item.stopka,
             "trybWysylaniaPowiadomien": item.trybWysylaniaPowiadomien
         }
     });
     res.json(
-        UstawieniaWia
+        UstawieWia
     )
 });
 router.get("/powiatwulkanowy/api/Stopka", (req, res) => {
