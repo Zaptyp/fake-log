@@ -174,9 +174,7 @@ router.get("/powiatwulkanowy/api/Ustawienia", (req, res) => {
             "trybWysylaniaPowiadomien": item.trybWysylaniaPowiadomien
         }
     });
-    res.json(
-        UstawieWia
-    )
+    res.json(UstawieWia[0])
 });
 router.get("/powiatwulkanowy/api/Stopka", (req, res) => {
     const StopkaWia = require("../../data/uonetplus-wiadomosciplus/Stopka").map(item => {
@@ -205,6 +203,22 @@ router.get("/powiatwulkanowy/api/Skrzynki", (req, res) => {
     )
 });
 router.get("/powiatwulkanowy/api/Kopia", (req, res) => {});
-router.get("/powiatwulkanowy/api/OdebraneSzczegolyArchiwum", (req, res) => {});
+router.get("/powiatwulkanowy/api/Uczniowie", (req, res) => {});
+router.get("/powiatwulkanowy/api/Opiekunowie", (req, res) => {});
+router.get("/powiatwulkanowy/api/GrupaAdresatow", (req, res) => {});
+router.get("/powiatwulkanowy/api/GrupyAdresatow", (req, res) => {});
+router.get("/powiatwulkanowy/api/Pracownicy", (req, res) => {});
+router.get("/powiatwulkanowy/api/WiadomoscNowa", (req, res) => {});
+router.get("/powiatwulkanowy/api/WiadomoscOdpowiedzPrzekaz", (req, res) => {});
+router.get("/powiatwulkanowy/api/WiadomoscArchiwumOdpowiedzPrzekaz", (req, res) => {});
+router.get("/powiatwulkanowy/api/MoveTrash", (req, res) => {});
+router.get("/powiatwulkanowy/api/RestoreTrash", (req, res) => {});
+router.get("/powiatwulkanowy/api/DeleteArchiwum", (req, res) => {});
+router.get("/powiatwulkanowy/api/RestoreTrashArchiwum", (req, res) => {});
+router.get("/powiatwulkanowy/api/OdebraneWydruk", (req, res) => {});
+router.get("/powiatwulkanowy/api/WyslaneWydruk", (req, res) => {});
+router.get("/powiatwulkanowy/api/WiadomoscOdbiorcy", (req, res) => {});
+router.get("/powiatwulkanowy/api/WyslaneSzczegolyArchiwum", (req, res) => {});
+router.get("/powiatwulkanowy/api/UsunieteSzczegolyArchiwum", (req, res) => {});
 
 module.exports = router;
