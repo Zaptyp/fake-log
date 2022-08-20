@@ -126,7 +126,26 @@ router.get("/powiatwulkanowy/api/Wyslane", (req, res) => {
         WyslaneWia
     )
 });
-router.get("/powiatwulkanowy/api/Usuniete", (req, res) => {});
+router.get("/powiatwulkanowy/api/Usuniete", (req, res) => {
+    const UsunieteWia = require("../../data/uonetplus-wiadomosciplus/Usuniete").map(item => {
+        return {
+            "apiGlobalKey": item.apiGlobalKey,
+            "korespondenci": item.korespondenci,
+            "temat": item.temat,
+            "data": item.data,
+            "skrzynka": item.skrzynka,
+            "hasZalaczniki": item.hasZalaczniki,
+            "przeczytana": item.przeczytana,
+            "nieprzeczytanePrzeczytanePrzez": item.nieprzeczytanePrzeczytanePrzez,
+            "wazna": item.wazna,
+            "uzytkownikRola": item.uzytkownikRola,
+            "id": item.id,
+        };
+    });
+    res.json(
+        UsunieteWia
+    )
+});
 router.get("/powiatwulkanowy/api/Kopie", (req, res) => {});
 router.get("/powiatwulkanowy/api/WiadomoscSzczegoly", (req, res) => {
     const reqID = req.query.apiGlobalKey

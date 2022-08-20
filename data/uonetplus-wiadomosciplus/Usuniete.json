@@ -1,0 +1,41 @@
+[
+    {
+        "apiGlobalKey": "33143cd8-3918-40aa-b309-e6d0cbe942cc",
+        "korespondenci": "Karolina Kłosek - P - (000056)",
+        "temat": "Informacja o sortowaniu śmieci w szkole",
+        "data": "2022-08-04T16:27:17.48+02:00",
+        "skrzynka": "Mateusz Morawiec - U - (000054)",
+        "hasZalaczniki": false,
+        "przeczytana": false,
+        "nieprzeczytanePrzeczytanePrzez": null,
+        "wazna": false,
+        "uzytkownikRola": 2,
+        "id": 27
+    },
+    {
+        "apiGlobalKey": "33143cd8-3918-40aa-b309-e6d0cbe942ca",
+        "korespondenci": "Małgorzata Dostojewska - N - (000023)",
+        "temat": "Wpłata na obiady za miesiąc maj",
+        "data": "2022-05-04T10:05:17.48+02:00",
+        "skrzynka": "Mateusz Morawiec - U - (000054)",
+        "hasZalaczniki": true,
+        "przeczytana": false,
+        "nieprzeczytanePrzeczytanePrzez": null,
+        "wazna": true,
+        "uzytkownikRola": 2,
+        "id": 25
+    },
+    {
+        "apiGlobalKey": "33143cd8-3918-40aa-b309-e6d0cbe942cb",
+        "korespondenci": "Kornel Kowalski - P - (000077)",
+        "temat": "Informacje o projekcie 'Rumunia naszą przyszłością'",
+        "data": "2022-05-19T10:27:17.48+02:00",
+        "skrzynka": "Mateusz Morawiec - U - (000054)",
+        "hasZalaczniki": false,
+        "przeczytana": true,
+        "nieprzeczytanePrzeczytanePrzez": null,
+        "wazna": false,
+        "uzytkownikRola": 2,
+        "id": 19
+    }
+]
