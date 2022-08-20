@@ -20,9 +20,18 @@
             "Mateusz Morawiec - U - (000054)"
         ],
         "temat": "Zebranie w sprawie wycieczki do Rumuni",
-        "tresc": "<p>Dzień dobry</p><p>Informuje że 16 lipca odbędzie się zebranie w sprawie wycieczki do Rumunni</p><p>Na zebraniu poruszymy też temat dofinansowania wycieczki do Krakowa i ogólne tematy o szkole.</p><p><br></p><p>Pozdrawia wychowawczyni klasy 8A</p><p>Magdalena Dostojewska</p>",
+        "tresc": "<p>Dzień dobry</p><p>Informuje że 16 lipca odbędzie się zebranie w sprawie wycieczki do Rumunni</p><p>Na zebraniu poruszymy też temat dofinansowania wycieczki do Krakowa i ogólne tematy o szkole.</p><p><br></p><p>W załączniku zgoda na wycieczke i regulamin!!!</p><p>Pozdrawia wychowawczyni klasy 8A</p><p>Magdalena Dostojewska</p>",
         "odczytana": true,
-        "zalaczniki": [],
+        "zalaczniki": [
+            {
+                "url": "https://1drv.ms/u/s!AmvjLDq5anT2psJ4nujoBUyclWOUhw",
+                "nazwaPliku": "Regulamin wycieczki do Rumunii.pdf"
+            },
+            {
+                "url": "https://github.com/wulkanowy/wulkanowy",
+                "nazwaPliku": "Zgoda na wycieczkę do Rumunii.docx"
+            }
+        ],
         "id": 15
     },
     {
