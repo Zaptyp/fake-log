@@ -61,107 +61,99 @@
         "id": 17
     },
     {
-        "data": "2022-08-15T10:27:17.48+02:00",
-        "apiGlobalKey": "e7a6708e-7bc4-4a6f-90fb-9312a6969a34",
-        "nadawca": "Małgorzata Dostojewska - P - (000077)",
+        "data": "2022-08-13T16:10:17.48+02:00",
+        "apiGlobalKey": "14d0a699-2154-4abc-be73-46b30e6759fd",
+        "nadawca": "Mateusz Morawiec - U - (000054)",
         "odbiorcy": [
-            "Mateusz Idziejczak - U - (000077)"
+            "Karolina Kłosek - P - (000056)"
         ],
-        "temat": "Informacyjnie",
-        "tresc": "<p>Dzień dobry, Mateuszu,</p>",
+        "temat": "Re: Informacja o podręcznikach",
+        "tresc": "<p>Dzień dobry!</p><p>Prosił bym tą zniżkę 50% i życzę pani miłych wakacji :)</p><p><br></p><p>Pozdrawiam Mateusz Idziejczak</p>",
         "odczytana": true,
         "zalaczniki": [],
-        "id": 18
+        "id": 9
     },
     {
-        "data": "2022-08-15T10:27:17.48+02:00",
-        "apiGlobalKey": "e7a6708e-7bc4-4a6f-90fb-9312a6969a34",
-        "nadawca": "Małgorzata Dostojewska - P - (000077)",
+        "data": "2022-07-15T12:39:19.48+02:00",
+        "apiGlobalKey": "14d0a699-2154-4abc-be73-46b30e6759fc",
+        "nadawca": "Mateusz Morawiec - U - (000054)",
         "odbiorcy": [
-            "Mateusz Idziejczak - U - (000077)"
+            "Małgorzata Dostojewska - N - (000023)"
         ],
-        "temat": "Informacyjnie",
-        "tresc": "<p>Dzień dobry, Mateuszu,</p>",
+        "temat": "Re: Zebranie w sprawie wycieczki do Rumuni",
+        "tresc": "<p>Dzień dobry!</p><p>Nie mogłem być dzisiaj na zebraniu także wysyłam pani wymagane dokumenty w załączniku</p><p><br></p><p>Pozdrawiam Mateusz Morawiec</p>",
+        "odczytana": true,
+        "zalaczniki": [
+            {
+                "url": "https://github.com/wulkanowy/wulkanowy",
+                "nazwaPliku": "PODPISANA!!! Zgoda na wycieczkę do Rumunii.docx"
+            }  
+        ],
+        "id": 7
+    },
+    {
+        "data": "2022-08-15T19:27:55.367+02:00",
+        "apiGlobalKey": "14d0a699-2154-4abc-be73-46b30e6759fb",
+        "nadawca": "Mateusz Morawiec - U - (000054)",
+        "odbiorcy": [
+            "Małgorzata Dostojewska - N - (000023)"
+        ],
+        "temat": "Zwolnienie mojego syna z lekcji języka rumuńskiego",
+        "tresc": "<p>Witam!</p><p>Mój syn Mateusz Morawiec nie pojawi się na lekcji języka rumuńskiego z powodu jelitówki.</p><p><br></p><p>Pozdrawiam</p>",
         "odczytana": true,
         "zalaczniki": [],
-        "id": 18
+        "id": 6
     },
     {
-        "data": "2022-08-15T10:27:17.48+02:00",
-        "apiGlobalKey": "e7a6708e-7bc4-4a6f-90fb-9312a6969a34",
-        "nadawca": "Małgorzata Dostojewska - P - (000077)",
+        "data": "2022-05-19T15:25:11.48+02:00",
+        "apiGlobalKey": "14d0a699-2154-4abc-be73-46b30e6759fa",
+        "nadawca": "Mateusz Morawiec - U - (000054)",
         "odbiorcy": [
-            "Mateusz Idziejczak - U - (000077)"
+            "Kornel Kowalski - P - (000077)"
         ],
         "temat": "Informacyjnie",
-        "tresc": "<p>Dzień dobry, Mateuszu,</p>",
+        "tresc": "<p>Witam!</p><p>Dziękuje za informacje może się zdecydujemy przenieś do Rumunii :)</p><p><br></p><p>Pozdrawiam</p>",
+        "odczytana": true,
+        "zalaczniki": [],
+        "id": 3
+    },
+    {
+        "data": "2022-08-04T16:27:17.48+02:00",
+        "apiGlobalKey": "33143cd8-3918-40aa-b309-e6d0cbe942cc",
+        "nadawca": "Karolina Kłosek - P - (000056)",
+        "odbiorcy": [
+            "Mateusz Morawiec - U - (000054)"
+        ],
+        "temat": "Informacja o sortowaniu śmieci w szkole",
+        "tresc": "<p>Dzień dobry!</p><p>Szkolna Dyrekcja informuje aby w naszej szkole zacząć sortować śmieci z tego powodu że szkoła płaci bardzo dużo za śmieci mieszane</p><p><br></p><p>Pozdrawia Serdecznie Karolina Kłosek</p>",
+        "odczytana": true,
+        "zalaczniki": [],
+        "id": 27
+    },
+    {
+        "data": "2022-05-04T10:05:17.48+02:00",
+        "apiGlobalKey": "33143cd8-3918-40aa-b309-e6d0cbe942ca",
+        "nadawca": "Małgorzata Dostojewska - N - (000023)",
+        "odbiorcy": [
+            "Mateusz Morawiec - U - (000054)"
+        ],
+        "temat": "Wpłata na obiady za miesiąc maj",
+        "tresc": "<p>Dzień dobry!</p><p>Kwotę którą trzeba wpłacić za obiady wynosi 150zł</p><p>Pieniążki wpłacamy na konto <b>00 0000 0000 0000 0000 000</b></p><p><br></p><p>Pozdrawiam Małgorzata Dostojewska</p>",
+        "odczytana": true,
+        "zalaczniki": [],
+        "id": 25
+    },
+    {
+        "data": "2022-05-19T10:27:17.48+02:00",
+        "apiGlobalKey": "33143cd8-3918-40aa-b309-e6d0cbe942cb",
+        "nadawca": "Kornel Kowalski - P - (000077)",
+        "odbiorcy": [
+            "Mateusz Morawiec - U - (000054)"
+        ],
+        "temat": "Informacje o projekcie 'Rumunia naszą przyszłością'",
+        "tresc": "<p>Dzień dobry!</p><p>Informuje o szkolnym projekcie przystosowania państwa dzieci do pracy na autostradzie do Bukaresztu 'Rumunia naszą przyszłością'</p>",
         "odczytana": true,
         "zalaczniki": [],
         "id": 19
-    },
-    {
-        "data": "2022-08-15T10:27:17.48+02:00",
-        "apiGlobalKey": "e7a6708e-7bc4-4a6f-90fb-9312a6969a34",
-        "nadawca": "Małgorzata Dostojewska - P - (000077)",
-        "odbiorcy": [
-            "Mateusz Idziejczak - U - (000077)"
-        ],
-        "temat": "Informacyjnie",
-        "tresc": "<p>Dzień dobry, Mateuszu,</p>",
-        "odczytana": true,
-        "zalaczniki": [],
-        "id": 20
-    },
-    {
-        "data": "2022-08-15T10:27:17.48+02:00",
-        "apiGlobalKey": "e7a6708e-7bc4-4a6f-90fb-9312a6969a34",
-        "nadawca": "Małgorzata Dostojewska - P - (000077)",
-        "odbiorcy": [
-            "Mateusz Idziejczak - U - (000077)"
-        ],
-        "temat": "Informacyjnie",
-        "tresc": "<p>Dzień dobry, Mateuszu,</p>",
-        "odczytana": true,
-        "zalaczniki": [],
-        "id": 21
-    },
-    {
-        "data": "2022-08-15T10:27:17.48+02:00",
-        "apiGlobalKey": "e7a6708e-7bc4-4a6f-90fb-9312a6969a34",
-        "nadawca": "Małgorzata Dostojewska - P - (000077)",
-        "odbiorcy": [
-            "Mateusz Idziejczak - U - (000077)"
-        ],
-        "temat": "Informacyjnie",
-        "tresc": "<p>Dzień dobry, Mateuszu,</p>",
-        "odczytana": true,
-        "zalaczniki": [],
-        "id": 22
-    },
-    {
-        "data": "2022-08-15T10:27:17.48+02:00",
-        "apiGlobalKey": "e7a6708e-7bc4-4a6f-90fb-9312a6969a34",
-        "nadawca": "Małgorzata Dostojewska - P - (000077)",
-        "odbiorcy": [
-            "Mateusz Idziejczak - U - (000077)"
-        ],
-        "temat": "Informacyjnie",
-        "tresc": "<p>Dzień dobry, Mateuszu,</p>",
-        "odczytana": true,
-        "zalaczniki": [],
-        "id": 23
-    },
-    {
-        "data": "2022-08-15T10:27:17.48+02:00",
-        "apiGlobalKey": "e7a6708e-7bc4-4a6f-90fb-9312a6969a34",
-        "nadawca": "Małgorzata Dostojewska - P - (000077)",
-        "odbiorcy": [
-            "Mateusz Idziejczak - U - (000077)"
-        ],
-        "temat": "Informacyjnie",
-        "tresc": "<p>Dzień dobry, Mateuszu,</p>",
-        "odczytana": true,
-        "zalaczniki": [],
-        "id": 24
     }
 ]
