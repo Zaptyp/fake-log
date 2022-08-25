@@ -140,7 +140,12 @@
         "temat": "Wpłata na obiady za miesiąc maj",
         "tresc": "<p>Dzień dobry!</p><p>Kwotę którą trzeba wpłacić za obiady wynosi 150zł</p><p>Pieniążki wpłacamy na konto <b>00 0000 0000 0000 0000 000</b></p><p><br></p><p>Pozdrawiam Małgorzata Dostojewska</p>",
         "odczytana": true,
-        "zalaczniki": [],
+        "zalaczniki": [
+            {
+                "url": "https://i.imgur.com/rc47c6O.png",
+                "nazwaPliku": "Informacja o zapłacie.png"
+            } 
+        ],
         "id": 25
     },
     {
