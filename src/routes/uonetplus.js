@@ -11,6 +11,7 @@ router.get("/powiatwulkanowy/Start.mvc/Endpoints", (req, res) => {
                 "/GetSelfGovernments",
                 "/GetStudentTrips",
                 "/GetLastNotes",
+                "/GetNumberOfUnreadMessages",
                 "/GetFreeDays",
                 "/GetKidsLuckyNumbers",
                 "/GetKidsLessonPlan",
@@ -60,6 +61,15 @@ router.all("/powiatwulkanowy/Start.mvc/GetKidsLessonPlan", (req, res) => {
         "data": require("../../data/api/student/PlanLekcjiKafelek"),
         "success": true,
         "errorMessage": null,
+        "feedback": null
+    });
+});
+
+router.all("/powiatwulkanowy/Start.mvc/GetNumberOfUnreadMessages", (req, res) => {
+    res.json({
+        "data": [],
+        "success": false,
+        "errorMessage": "Not implemented yet",
         "feedback": null
     });
 });
