@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const protocol = require('../utils/connection');
-const { body, validationResult } = require('express-validator');
+const { body, query, validationResult } = require('express-validator');
 
 router.get("/", (req, res) => {
     const base = protocol(req) + "://" + req.get('host') + "/powiatwulkanowy/api";
