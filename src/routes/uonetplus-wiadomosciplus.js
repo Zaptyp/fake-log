@@ -83,8 +83,8 @@ router.get("/powiatwulkanowy/api/WyslaneNowe", (req, res) => {
 });
 router.get("/powiatwulkanowy/api/LiczbyNieodczytanych", (req, res) => {});
 //router.get("/powiatwulkanowy/api/OdebraneSkrzynka", (req, res) => {});
-router.get("/powiatwulkanowy/api/WyslaneSkrzynka", (req, res) => {});
-router.get("/powiatwulkanowy/api/UsunieteSkrzynka", (req, res) => {});
+//router.get("/powiatwulkanowy/api/WyslaneSkrzynka", (req, res) => {});
+//router.get("/powiatwulkanowy/api/UsunieteSkrzynka", (req, res) => {});
 router.get("/powiatwulkanowy/api/KopieSkrzynka", (req, res) => {});
 router.get("/powiatwulkanowy/api/DdsArchive", (req, res) => {});
 router.get([
@@ -108,7 +108,10 @@ router.get([
     }));
 });
 
-router.get("/powiatwulkanowy/api/Wyslane", (req, res) => {
+router.get([
+    "/powiatwulkanowy/api/Wyslane",
+    "/powiatwulkanowy/api/WyslaneSkrzynka",
+], (req, res) => {
     const WyslaneWia = require("../../data/uonetplus-wiadomosciplus/Wyslane").map(item => {
         return {
             "apiGlobalKey": item.apiGlobalKey,
@@ -128,7 +131,10 @@ router.get("/powiatwulkanowy/api/Wyslane", (req, res) => {
         WyslaneWia
     )
 });
-router.get("/powiatwulkanowy/api/Usuniete", (req, res) => {
+router.get([
+    "/powiatwulkanowy/api/Usuniete",
+    "/powiatwulkanowy/api/UsunieteSkrzynka",
+], (req, res) => {
     const UsunieteWia = require("../../data/uonetplus-wiadomosciplus/Usuniete").map(item => {
         return {
             "apiGlobalKey": item.apiGlobalKey,
