@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const protocol = require('../utils/connection');
-const { body, query, validationResult } = require('express-validator');
+const { body, validationResult } = require('express-validator');
 
 router.get("/", (req, res) => {
     const base = protocol(req) + "://" + req.get('host') + "/powiatwulkanowy/api";
@@ -82,12 +82,12 @@ router.get("/powiatwulkanowy/api/WyslaneNowe", (req, res) => {
     res.json([])
 });
 router.get("/powiatwulkanowy/api/LiczbyNieodczytanych", (req, res) => {});
-router.get("/powiatwulkanowy/api/OdebraneSkrzynka", (req, res) => {});
+//router.get("/powiatwulkanowy/api/OdebraneSkrzynka", (req, res) => {});
 router.get("/powiatwulkanowy/api/WyslaneSkrzynka", (req, res) => {});
 router.get("/powiatwulkanowy/api/UsunieteSkrzynka", (req, res) => {});
 router.get("/powiatwulkanowy/api/KopieSkrzynka", (req, res) => {});
 router.get("/powiatwulkanowy/api/DdsArchive", (req, res) => {});
-router.get("/powiatwulkanowy/api/Odebrane", (req, res) => {
+router.get("/powiatwulkanowy/api/Odebrane", "/powiatwulkanowy/api/OdebraneSkrzynka", (req, res) => {
     const OdebraneWia = require("../../data/uonetplus-wiadomosciplus/Odebrane").map(item => {
         return {
             "apiGlobalKey": item.apiGlobalKey,
@@ -149,10 +149,6 @@ router.get("/powiatwulkanowy/api/Usuniete", (req, res) => {
 });
 router.get("/powiatwulkanowy/api/Kopie", (req, res) => {});
 router.get("/powiatwulkanowy/api/WiadomoscSzczegoly", query('apiGlobalKey').isUUID(4).withMessage({message: "Nie zapomniałeś o ID skrzynki?"}), (req, res) => {
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      return res.status(400).json({ errors: errors.array() });
-    }
     const reqID = req.query.apiGlobalKey
     const WiadomosciSzczego = require("../../data/uonetplus-wiadomosciplus/WiaSzczegoly")
     function WiadoSearch(GlobalKey) {
@@ -182,10 +178,6 @@ router.get("/powiatwulkanowy/api/OdebraneArchiwum", (req, res) => {});
 router.get("/powiatwulkanowy/api/WyslaneArchiwum", (req, res) => {});
 router.get("/powiatwulkanowy/api/UsunieteArchiwum", (req, res) => {});
 router.get("/powiatwulkanowy/api/Ustawienia", query('apiGlobalKey').isUUID(4).withMessage({message: "Nie zapomniałeś o ID skrzynki?"}), (req, res) => {
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      return res.status(400).json({ errors: errors.array() });
-    }
     const reqID = req.query.apiGlobalKey
     const UstawieniaWia = require("../../data/uonetplus-wiadomosciplus/Ustawienia")
     function WiadoSearch(GlobalKey) {
