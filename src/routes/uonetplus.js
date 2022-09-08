@@ -10,6 +10,7 @@ router.get("/powiatwulkanowy/Start.mvc/Endpoints", (req, res) => {
             endpoints: [
                 "/GetSelfGovernments",
                 "/GetStudentTrips",
+                "/GetStudentConferences",
                 "/GetLastNotes",
                 "/GetNumberOfUnreadMessages",
                 "/GetFreeDays",
@@ -76,14 +77,23 @@ router.all("/powiatwulkanowy/Start.mvc/GetNumberOfUnreadMessages", (req, res) =>
 
 router.all("/powiatwulkanowy/Start.mvc/GetLastHomeworks", (req, res) => {
     res.json({
-        "data": [],
-        "success": false,
-        "errorMessage": "Not implemented yet",
+        "data": require("../../data/api/student/ZadaniaDomoweKafelek"),
+        "success": true,
+        "errorMessage": null,
         "feedback": null
     });
 });
 
 router.all("/powiatwulkanowy/Start.mvc/GetLastTests", (req, res) => {
+    res.json({
+        "data": require("../../data/api/student/SprawdzianyKafelek"),
+        "success": true,
+        "errorMessage": null,
+        "feedback": null
+    });
+});
+
+router.all("/powiatwulkanowy/Start.mvc/GetStudentConferences", (req, res) => {
     res.json({
         "data": [],
         "success": false,
