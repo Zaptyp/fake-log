@@ -1,0 +1,80 @@
+[
+    {
+        "data": "2018-03-01T14:31:27.767+02:00",
+        "apiGlobalKey": "00000000-0000-0000-0000-000000000000",
+        "nadawca": "Nazwisko Imię [NI] - pracownik (SP 1)",
+        "odbiorcy": [
+            "Kowalski Jan - uczeń 4A (SP 1)"
+        ],
+        "temat": "Temat wiadomości",
+        "tresc": "Tak wygląda zawartość wiadomości.\nZazwyczaj ma wiele linijek.\n\nZ poważaniem,\nNazwisko Imię",
+        "odczytana": false,
+        "zalaczniki": [],
+        "id": 27214
+    },
+    {
+        "data": "2018-04-05T11:51:27.767+02:00",
+        "apiGlobalKey": "00000000-0000-0000-0000-000000000000",
+        "nadawca": "Kowalski Jan [KJ] - pracownik (SP 1)",
+        "odbiorcy": [
+            "Kowalski Jan - uczeń 4A (SP 1)"
+        ],
+        "temat": "Tytuł1",
+        "tresc": "Dużo różnych treści.\nBardzo dużo,\nbardzo długie to potrafi być",
+        "odczytana": false,
+        "zalaczniki": [],
+        "id": 28993
+    },
+    {
+        "data": "2018-04-05T11:51:27.767+02:00",
+        "apiGlobalKey": "00000000-0000-0000-0000-000000000000",
+        "nadawca": "Kowalski Jan [KJ] - pracownik (SP 1)",
+        "odbiorcy": [
+            "Kowalski Jan - uczeń 4A (SP 1)"
+        ],
+        "temat": "Tytuł1",
+        "tresc": "Dużo różnych treści.\nBardzo dużo,\nbardzo długie to potrafi być",
+        "odczytana": false,
+        "zalaczniki": [],
+        "id": 27973
+    },
+    {
+        "data": "2018-04-05T11:51:27.767+02:00",
+        "apiGlobalKey": "00000000-0000-0000-0000-000000000000",
+        "nadawca": "Kowalski Jan [KJ] - pracownik (SP 1)",
+        "odbiorcy": [
+            "Kowalski Jan - uczeń 4A (SP 1)"
+        ],
+        "temat": "Tytuł1",
+        "tresc": "Dużo różnych treści.\nBardzo dużo,\nbardzo długie to potrafi być",
+        "odczytana": false,
+        "zalaczniki": [],
+        "id": 23974
+    },
+    {
+        "data": "2018-04-05T11:51:27.767+02:00",
+        "apiGlobalKey": "00000000-0000-0000-0000-000000000000",
+        "nadawca": "Kowalski Jan [KJ] - pracownik (SP 1)",
+        "odbiorcy": [
+            "Kowalski Jan - uczeń 4A (SP 1)"
+        ],
+        "temat": "Tytuł1",
+        "tresc": "Dużo różnych treści.\nBardzo dużo,\nbardzo długie to potrafi być",
+        "odczytana": false,
+        "zalaczniki": [],
+        "id": 28943
+    },
+    {
+        "data": "2018-04-05T11:51:27.767+02:00",
+        "apiGlobalKey": "00000000-0000-0000-0000-000000000000",
+        "nadawca": "Kowalski Jan [KJ] - pracownik (SP 1)",
+        "odbiorcy": [
+            "Kowalski Jan - uczeń 4A (SP 1)"
+        ],
+        "temat": "Tytuł1",
+        "tresc": "Dużo różnych treści.\nBardzo dużo,\nbardzo długie to potrafi być",
+        "odczytana": false,
+        "zalaczniki": [],
+        "id": 29973
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "apiGlobalKey": "00000000-0000-0000-0000-000000000000",
+        "korespondenci": "Nazwisko Imię [NI] - pracownik (SP 1)",
+        "temat": "Temat wiadomości",
+        "data": "2018-03-01T14:31:27.767+02:00",
+        "skrzynka": null,
+        "hasZalaczniki": false,
+        "przeczytana": true,
+        "nieprzeczytanePrzeczytanePrzez": null,
+        "wazna": false,
+        "uzytkownikRola": 2,
+        "id": 27214
+    },
+    {
+        "apiGlobalKey": "00000000-0000-0000-0000-000000000000",
+        "korespondenci": "Kowalski Jan [KJ] - pracownik (SP 1)",
+        "temat": "Tytuł1",
+        "data": "2018-04-05T11:51:27.767+02:00",
+        "skrzynka": null,
+        "hasZalaczniki": false,
+        "przeczytana": true,
+        "nieprzeczytanePrzeczytanePrzez": null,
+        "wazna": false,
+        "uzytkownikRola": 2,
+        "id": 28993
+    },
+    {
+        "apiGlobalKey": "00000000-0000-0000-0000-000000000000",
+        "korespondenci": "Kowalski Jan [KJ] - pracownik (SP 1)",
+        "temat": "Tytuł1",
+        "data": "2018-04-05T11:51:27.767+02:00",
+        "skrzynka": null,
+        "hasZalaczniki": false,
+        "przeczytana": true,
+        "nieprzeczytanePrzeczytanePrzez": null,
+        "wazna": false,
+        "uzytkownikRola": 2,
+        "id": 27973
+    },
+    {
+        "apiGlobalKey": "00000000-0000-0000-0000-000000000000",
+        "korespondenci": "Kowalski Jan [KJ] - pracownik (SP 1)",
+        "temat": "Tytuł1",
+        "data": "2018-04-05T11:51:27.767+02:00",
+        "skrzynka": null,
+        "hasZalaczniki": false,
+        "przeczytana": true,
+        "nieprzeczytanePrzeczytanePrzez": null,
+        "wazna": false,
+        "uzytkownikRola": 2,
+        "id": 23974
+    },
+    {
+        "apiGlobalKey": "00000000-0000-0000-0000-000000000000",
+        "korespondenci": "Kowalski Jan [KJ] - pracownik (SP 1)",
+        "temat": "Tytuł1",
+        "data": "2018-04-05T11:51:27.767+02:00",
+        "skrzynka": null,
+        "hasZalaczniki": false,
+        "przeczytana": true,
+        "nieprzeczytanePrzeczytanePrzez": null,
+        "wazna": false,
+        "uzytkownikRola": 2,
+        "id": 28943
+    },
+    {
+        "apiGlobalKey": "00000000-0000-0000-0000-000000000000",
+        "korespondenci": "Kowalski Jan [KJ] - pracownik (SP 1)",
+        "temat": "Tytuł1",
+        "data": "2018-04-05T11:51:27.767+02:00",
+        "skrzynka": null,
+        "hasZalaczniki": false,
+        "przeczytana": true,
+        "nieprzeczytanePrzeczytanePrzez": null,
+        "wazna": false,
+        "uzytkownikRola": 2,
+        "id": 29973
+    }
+
+]

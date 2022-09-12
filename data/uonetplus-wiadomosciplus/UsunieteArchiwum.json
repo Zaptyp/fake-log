@@ -1,0 +1,15 @@
+[
+    {
+        "apiGlobalKey": "00000000-0000-0000-0000-000000000000",
+        "korespondenci": "Nazwisko Imię [NI] - pracownik (SP 1)",
+        "temat": "Tytuł1",
+        "data": "2018-02-06T18:36:27.767+02:00",
+        "skrzynka": null,
+        "hasZalaczniki": false,
+        "przeczytana": true,
+        "nieprzeczytanePrzeczytanePrzez": null,
+        "wazna": false,
+        "uzytkownikRola": 2,
+        "id": 89626
+    }
+]

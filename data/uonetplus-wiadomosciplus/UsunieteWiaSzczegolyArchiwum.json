@@ -1,0 +1,15 @@
+[
+    {
+        "data": "2018-02-06T18:36:27.767+02:00",
+        "apiGlobalKey": "00000000-0000-0000-0000-000000000000",
+        "nadawca": "Nazwisko Imię [NI] - pracownik (SP 1)",
+        "odbiorcy": [
+            "Jan Kowalski - uczeń 4A (SP 1)"
+        ],
+        "temat": "Lorem ipsum",
+        "tresc": "Lorem ipsum dolor sit amet",
+        "odczytana": true,
+        "zalaczniki": [],
+        "id": 89626
+    }
+]
