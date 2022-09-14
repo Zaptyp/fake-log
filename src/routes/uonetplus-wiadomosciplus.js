@@ -93,7 +93,7 @@ router.get("/powiatwulkanowy/api/LiczbyNieodczytanych", (req, res) => {
 //router.get("/powiatwulkanowy/api/OdebraneSkrzynka", (req, res) => {});
 //router.get("/powiatwulkanowy/api/WyslaneSkrzynka", (req, res) => {});
 //router.get("/powiatwulkanowy/api/UsunieteSkrzynka", (req, res) => {});
-router.get("/powiatwulkanowy/api/KopieSkrzynka", (req, res) => {});
+//router.get("/powiatwulkanowy/api/KopieSkrzynka", (req, res) => {});
 router.get("/powiatwulkanowy/api/DdsArchive", (req, res) => {});
 router.get([
     "/powiatwulkanowy/api/Odebrane",
@@ -325,8 +325,15 @@ router.get("/powiatwulkanowy/api/Opiekunowie", (req, res) => {
 });
 router.get("/powiatwulkanowy/api/GrupaAdresatow", (req, res) => {});
 router.get("/powiatwulkanowy/api/GrupyAdresatow", (req, res) => {});
-router.get("/powiatwulkanowy/api/Pracownicy", (req, res) => {
-
+router.get("/powiatwulkanowy/api/Pracownicy", (req, res) => {    
+    const user = require("../../data/api/ListaUczniow")[1];
+    const recipients = require("../../data/api/dictionaries/Pracownicy");
+    res.json(recipients.map(item => {
+        return {
+            "skrzynkaGlobalKey": fromString(item.Id.toString()),
+            "nazwa": `${item.Nazwisko} ${item.Imie} - P - (${user.JednostkaSprawozdawczaSkrot})`
+        };
+    }));
 });
 router.get("/powiatwulkanowy/api/WiadomoscNowa", (req, res) => {});
 router.get("/powiatwulkanowy/api/WiadomoscOdpowiedzPrzekaz", (req, res) => {});
