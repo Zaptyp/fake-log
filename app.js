@@ -44,6 +44,10 @@ app.use((req, res, next) => {
   res.cookie("UonetPlus_ASP.NET_SessionId", "", { httpOnly: false, domain: req.get("host") });
   res.cookie("ARR_DS_ARR301302", "", { httpOnly: false, domain: req.get("host") });
   res.cookie("ARR_" + req.get('host'), "1234567891012131314151617181920212223242526272829303132333435363", { httpOnly: false, domain: req.get("host") });
+  res.set('cache-Control', "no-cache, no-store, must-revalidate");
+  res.set('pragma', "no-cache");
+  res.set('vary', "Accept-Encoding");
+
   next();
 });
 
