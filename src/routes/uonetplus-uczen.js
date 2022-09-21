@@ -606,7 +606,7 @@ router.all("/PlanZajec.mvc/Get", (req, res) => {
 });
 
 router.all("/PodrecznikiUcznia.mvc/Get", (req, res) => {
-    const Manuals = require("../../data/api/opiekun/Podreczniki").map(item => {
+    const manuals = require("../../data/api/opiekun/Podreczniki").map(item => {
         return {
             "Opis": item.Opis,
             "Tytul": item.Tytul,
@@ -620,21 +620,21 @@ router.all("/PodrecznikiUcznia.mvc/Get", (req, res) => {
     res.json({
         "data": {
             "IsZatwierdzone": true,
-            "Podreczniki": Manuals,
+            "Podreczniki": manuals,
         },
         "success": true
     });
 });
 
 router.all("/PodrecznikiLataSzkolne.mvc/Get", (req, res) => {
-    const ManualsDate = require("../../data/api/opiekun/PodrecznikiLataSzkolne").map(item => {
+    const manualsDate = require("../../data/api/opiekun/PodrecznikiLataSzkolne").map(item => {
         return {
             "Nazwa": item.Nazwa,
             "Id": item.Id,
         };
     });
     res.json({
-        "data": ManualsDate,
+        "data": manualsDate,
         "success": true
     });
 });
