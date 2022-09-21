@@ -28,11 +28,11 @@
     },
     {
         "Opis": "",
-        "Tytul": "Droga autostradą do Bukaresztu. Podręcznik wieloletni do języka rumuńskiego - poziom podstawowy",
-        "Autor": "Marta Umińska, Bob Hastings, Dominika Chandler, Rod Fricker, Beata Trapnell",
-        "Wydawnictwo": "Wydawnictwa Cenzury i Nauk Społecznych Sp. z o.o", 
-        "Przedmiot": "Język rumuński",
-        "Aktywny": false,
-        "Id": 69
+        "Tytul": "Drogą ku wyjścia z Unii Europejskiej. Podręcznik wieloletni do historii - poziom podstawowy",
+        "Autor": "Marta Umińska, Mateusz Morawiecki, Kuba Szczodreń",
+        "Wydawnictwo": "Wydawnictwo Cenzury i Nauk Społecznych Sp. z o.o", 
+        "Przedmiot": "Historia",
+        "Aktywny": true,
+        "Id": 80
     }
 ]
