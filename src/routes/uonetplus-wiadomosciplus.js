@@ -336,7 +336,9 @@ router.get("/powiatwulkanowy/api/Pracownicy", (req, res) => {
         };
     }));
 });
-router.get("/powiatwulkanowy/api/WiadomoscNowa", (req, res) => {});
+router.get("/powiatwulkanowy/api/WiadomoscNowa", (req, res) => {
+    res.json([])
+});
 router.get("/powiatwulkanowy/api/WiadomoscOdpowiedzPrzekaz", (req, res) => {});
 router.get("/powiatwulkanowy/api/WiadomoscArchiwumOdpowiedzPrzekaz", (req, res) => {});
 router.get("/powiatwulkanowy/api/MoveTrash", (req, res) => {});
