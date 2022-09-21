@@ -606,7 +606,7 @@ router.all("/PlanZajec.mvc/Get", (req, res) => {
 });
 
 router.all("/PodrecznikiUcznia.mvc/Get", (req, res) => {
-    const Podreczniki= require("../../data/api/opiekun/Podreczniki").map(item => {
+    const Podreczniki = require("../../data/api/opiekun/Podreczniki").map(item => {
         return {
             "Opis": item.Opis,
             "Tytul": item.Tytul,
