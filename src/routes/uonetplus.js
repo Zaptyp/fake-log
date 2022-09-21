@@ -29,7 +29,7 @@ router.get("/powiatwulkanowy/Start.mvc/Endpoints", (req, res) => {
 
 router.all("/powiatwulkanowy/Start.mvc/GetSelfGovernments", (req, res) => {
     res.json({
-        "data": require("../../data/api/student/Samorzad"),
+        "data": require("../../data/uonetplus/Samorzad"),
         "success": true,
         "errorMessage": null,
         "feedback": null
@@ -38,7 +38,7 @@ router.all("/powiatwulkanowy/Start.mvc/GetSelfGovernments", (req, res) => {
 
 router.all("/powiatwulkanowy/Start.mvc/GetStudentTrips", (req, res) => {
     res.json({
-        "data": require("../../data/api/student/wycieczki"),
+        "data": require("../../data/uonetplus/Wycieczki"),
         "success": true,
         "errorMessage": null,
         "feedback": null
@@ -59,7 +59,7 @@ router.all("/powiatwulkanowy/Start.mvc/GetKidsLuckyNumbers", (req, res) => {
 
 router.all("/powiatwulkanowy/Start.mvc/GetKidsLessonPlan", (req, res) => {
     res.json({
-        "data": require("../../data/api/student/PlanLekcjiKafelek"),
+        "data": require("../../data/uonetplus/PlanLekcjiKafelek"),
         "success": true,
         "errorMessage": null,
         "feedback": null
@@ -77,7 +77,7 @@ router.all("/powiatwulkanowy/Start.mvc/GetNumberOfUnreadMessages", (req, res) =>
 
 router.all("/powiatwulkanowy/Start.mvc/GetLastHomeworks", (req, res) => {
     res.json({
-        "data": require("../../data/api/student/ZadaniaDomoweKafelek"),
+        "data": require("../../data/uonetplus/ZadaniaDomoweKafelek"),
         "success": true,
         "errorMessage": null,
         "feedback": null
@@ -86,7 +86,7 @@ router.all("/powiatwulkanowy/Start.mvc/GetLastHomeworks", (req, res) => {
 
 router.all("/powiatwulkanowy/Start.mvc/GetLastTests", (req, res) => {
     res.json({
-        "data": require("../../data/api/student/SprawdzianyKafelek"),
+        "data": require("../../data/uonetplus/SprawdzianyKafelek"),
         "success": true,
         "errorMessage": null,
         "feedback": null
@@ -104,7 +104,7 @@ router.all("/powiatwulkanowy/Start.mvc/GetStudentConferences", (req, res) => {
 
 router.all("/powiatwulkanowy/Start.mvc/GetLastStudentLessons", (req, res) => {
     res.json({
-        "data": require("../../data/api/student/LekcjeZrealizowaneKafelek"),
+        "data": require("../../data/uonetplus/LekcjeZrealizowaneKafelek"),
         "success": true,
         "errorMessage": null,
         "feedback": null
