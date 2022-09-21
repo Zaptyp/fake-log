@@ -606,7 +606,7 @@ router.all("/PlanZajec.mvc/Get", (req, res) => {
 });
 
 router.all("/PodrecznikiUcznia.mvc/Get", (req, res) => {
-    const podreczniki= require("../../data/api/student/Podreczniki").map(item => {
+    const podreczniki= require("../../data/api/opiekun/Podreczniki").map(item => {
         return {
             "Opis": item.Opis,
             "Tytul": item.Tytul,
@@ -627,7 +627,7 @@ router.all("/PodrecznikiUcznia.mvc/Get", (req, res) => {
 });
 
 router.all("/PodrecznikiLataSzkolne.mvc/Get", (req, res) => {
-    const PodrecznikiLata = require("../../data/api/student/PodrecznikiLataSzkolne").map(item => {
+    const PodrecznikiLata = require("../../data/api/opiekun/PodrecznikiLataSzkolne").map(item => {
         return {
             "Nazwa": item.Nazwa,
             "Id": item.Id,
