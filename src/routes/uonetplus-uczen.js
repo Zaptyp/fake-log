@@ -43,6 +43,8 @@ router.get("/", (req, res) => {
                 "/OkresyUmowOplat.mvc/Get",
                 "/Oplaty.mvc/Get",
                 "/PlanZajec.mvc/Get",
+                "/PodrecznikiLataSzkolne.mvc/Get",
+                "/PodrecznikiUcznia.mvc/Get",
                 "/Pomoc.mvc/Get",
                 "/RejestracjaUrzadzeniaToken.mvc/Get",
                 "/RejestracjaUrzadzeniaToken.mvc/Delete",
@@ -599,6 +601,40 @@ router.all("/PlanZajec.mvc/Get", (req, res) => {
                 };
             })
         },
+        "success": true
+    });
+});
+
+router.all("/PodrecznikiUcznia.mvc/Get", (req, res) => {
+    const podreczniki= require("../../data/api/student/Podreczniki").map(item => {
+        return {
+            "Opis": item.Opis,
+            "Tytul": item.Tytul,
+            "Autor": item.Autor,
+            "Wydawnictwo": item.Wydawnictwo,
+            "Przedmiot": item.Przedmiot,
+            "Aktywny": item.Aktywny,
+            "Id": item.Id,
+        };
+    });
+    res.json({
+        "data": {
+            "IsZatwierdzone": true,
+            "Podreczniki": podreczniki,
+        },
+        "success": true
+    });
+});
+
+router.all("/PodrecznikiLataSzkolne.mvc/Get", (req, res) => {
+    const PodrecznikiLata = require("../../data/api/student/PodrecznikiLataSzkolne").map(item => {
+        return {
+            "Nazwa": item.Nazwa,
+            "Id": item.Id,
+        };
+    });
+    res.json({
+        "data": PodrecznikiLata,
         "success": true
     });
 });
