@@ -324,8 +324,8 @@ router.get("/powiatwulkanowy/api/Uczniowie", (req, res) => {
 router.get("/powiatwulkanowy/api/Opiekunowie", (req, res) => {
     res.json([])
 });
-router.get("/powiatwulkanowy/api/GrupaAdresatow", (req, res) => {});
-router.get("/powiatwulkanowy/api/GrupyAdresatow", (req, res) => {});
+//router.get("/powiatwulkanowy/api/GrupaAdresatow", (req, res) => {});
+//router.get("/powiatwulkanowy/api/GrupyAdresatow", (req, res) => {});
 router.get("/powiatwulkanowy/api/Pracownicy", (req, res) => {    
     const user = require("../../data/api/ListaUczniow")[1];
     const recipients = require("../../data/api/dictionaries/Pracownicy");
@@ -339,15 +339,15 @@ router.get("/powiatwulkanowy/api/Pracownicy", (req, res) => {
 router.get("/powiatwulkanowy/api/WiadomoscNowa", (req, res) => {
     res.json([])
 });
-router.get("/powiatwulkanowy/api/WiadomoscOdpowiedzPrzekaz", (req, res) => {});
-router.get("/powiatwulkanowy/api/WiadomoscArchiwumOdpowiedzPrzekaz", (req, res) => {});
-router.get("/powiatwulkanowy/api/MoveTrash", (req, res) => {});
-router.get("/powiatwulkanowy/api/RestoreTrash", (req, res) => {});
-router.get("/powiatwulkanowy/api/DeleteArchiwum", (req, res) => {});
-router.get("/powiatwulkanowy/api/RestoreTrashArchiwum", (req, res) => {});
-router.get("/powiatwulkanowy/api/OdebraneWydruk", (req, res) => {});
-router.get("/powiatwulkanowy/api/WyslaneWydruk", (req, res) => {});
-router.get("/powiatwulkanowy/api/WiadomoscOdbiorcy", (req, res) => {});
+//router.get("/powiatwulkanowy/api/WiadomoscOdpowiedzPrzekaz", (req, res) => {});
+//router.get("/powiatwulkanowy/api/WiadomoscArchiwumOdpowiedzPrzekaz", (req, res) => {});
+//router.get("/powiatwulkanowy/api/MoveTrash", (req, res) => {});
+//router.get("/powiatwulkanowy/api/RestoreTrash", (req, res) => {});
+//router.get("/powiatwulkanowy/api/DeleteArchiwum", (req, res) => {});
+//router.get("/powiatwulkanowy/api/RestoreTrashArchiwum", (req, res) => {});
+//router.get("/powiatwulkanowy/api/OdebraneWydruk", (req, res) => {});
+//router.get("/powiatwulkanowy/api/WyslaneWydruk", (req, res) => {});
+//router.get("/powiatwulkanowy/api/WiadomoscOdbiorcy", (req, res) => {});
 router.get("/powiatwulkanowy/api/OdebraneSzczegolyArchiwum", (req, res) => {    
     const reqID = req.query.idWiadomosc
     const WiadomosciSzczego = require("../../data/uonetplus-wiadomosciplus/OdebraneWiaSzczegolyArchiwum")
@@ -467,6 +467,13 @@ router.get("/powiatwulkanowy/api/UsunieteSzczegolyArchiwum", (req, res) => {
     });
     
     res.json(Wiado[0])
+});
+
+router.all("/*", (req, res) => {
+    res.status(404).json({
+        "status": "error",
+        "message": "Not implemented yet"
+    });
 });
 
 module.exports = router;
