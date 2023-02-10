@@ -1,0 +1,74 @@
+[
+  {
+    "number": 1,
+    "start": "1900-01-01 08:00:00",
+    "end": "1900-01-01 08:45:00",
+    "modifyDate": "2023-02-10 22:55:00",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy",
+    "id": 1
+  },
+  {
+    "number": 2,
+    "start": "1900-01-01 08:55:00",
+    "end": "1900-01-01 09:40:00",
+    "modifyDate": "2023-02-10 22:55:00",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy",
+    "id": 2
+  },
+  {
+    "number": 3,
+    "start": "1900-01-01 09:50:00",
+    "end": "1900-01-01 10:35:00",
+    "modifyDate": "2023-02-10 22:55:00",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy",
+    "id": 3
+  },
+  {
+    "number": 4,
+    "start": "1900-01-01 10:45:00",
+    "end": "1900-01-01 11:30:00",
+    "modifyDate": "2023-02-10 22:55:00",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy",
+    "id": 4
+  },
+  {
+    "number": 5,
+    "start": "1900-01-01 11:50:00",
+    "end": "1900-01-01 12:35:00",
+    "modifyDate": "2023-02-10 22:55:00",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy",
+    "id": 5
+  },
+  {
+    "number": 6,
+    "start": "1900-01-01 12:55:00",
+    "end": "1900-01-01 13:40:00",
+    "modifyDate": "2023-02-10 22:55:00",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy",
+    "id": 6
+  },
+  {
+    "number": 7,
+    "start": "1900-01-01 14:00:00",
+    "end": "1900-01-01 14:45:00",
+    "modifyDate": "2023-02-10 22:55:00",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy",
+    "id": 7
+  },
+  {
+    "number": 8,
+    "start": "1900-01-01 14:50:00",
+    "end": "1900-01-01 15:35:00",
+    "modifyDate": "2023-02-10 22:55:00",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy",
+    "id": 8
+  }
+]
