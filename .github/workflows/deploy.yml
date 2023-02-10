@@ -13,7 +13,7 @@ jobs:
         uses: shimataro/ssh-key-action@develop
         with: 
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          known_hosts: 'Error'
+          known_hosts: ''
       - name: Adding Known Hosts
         run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
       - name: Stop the Fakelog server
