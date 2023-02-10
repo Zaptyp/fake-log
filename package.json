@@ -29,7 +29,7 @@
     "uuidv4": "^6.2.13"
   },
   "devDependencies": {
-    "jshint": "^2.13.5",
+    "jshint": "^2.13.6",
     "nodemon": "^2.0.20"
   },
   "engines": {
