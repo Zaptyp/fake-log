@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "loginId": 0,
+    "birthDate": "2013-01-01 00:00:00",
+    "brithPlace": "Powiat wulkanowy",
+    "familyName": "Nowak",
+    "motherName": "Joanna",
+    "fatherName": "Mariusz",
+    "contactData": {
+      "homePhone": "000000000",
+      "cellPhone": "000000000",
+      "emailAddress": "0@fakelog.cf"
+    },
+    "addressData": {
+      "homeAddress": "ul. Wulkanowa 18, 30-300 Powiat Wulkanowy",
+      "registeredAddress": "ul. Wulkanowa 18, 30-300 Powiat Wulkanowy",
+      "correspondenceAddress": "ul. Wulkanowa 18, 30-300 Powiat Wulkanowy"
+    },
+    "guardians": [
+      {
+        "id": 4,
+        "kinship": "matka"
+      },
+      {
+        "id": 3,
+        "kinship": "ojciec"
+      }
+    ],
+    "pole": true,
+    "hasPesel": true,
+    "polishCitizenship": 1,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  }
+]

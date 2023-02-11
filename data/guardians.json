@@ -1,0 +1,27 @@
+[
+  {
+    "id": 4,
+    "loginId": 1,
+    "address": "ul. Wulkanowa 18, 30-300 Powiat Wulkanowy",
+    "contactData": {
+      "homePhone": null,
+      "cellPhone": "000000000",
+      "workPhone": null,
+      "emailAddress": "05732@fakelog.cf"
+    },
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },{
+    "id": 5,
+    "loginId": 2,
+    "address": "ul. Wulkanowa 18, 30-300 Powiat Wulkanowy",
+    "contactData": {
+      "homePhone": null,
+      "cellPhone": "000000000",
+      "workPhone": null,
+      "emailAddress": "05732@fakelog.cf"
+    },
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  }
+]

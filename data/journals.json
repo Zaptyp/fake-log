@@ -1,0 +1,59 @@
+[
+  {
+    "id": 9,
+    "type": 1,
+    "yearId": 2022,
+    "studentsIds": [
+      1
+    ],
+    "teachers": [
+      {
+        "employeeId": 1,
+        "subjectsId": [
+          300
+        ],
+        "educator": true
+      },
+      {
+        "employeeId": 2,
+        "subjectsId": [
+          301,
+          302
+        ],
+        "educator": false
+      },
+      {
+        "employeeId": 3,
+        "subjectsId": [
+          304
+        ],
+        "educator": false
+      },
+      {
+        "employeeId": 4,
+        "subjectsId": [
+          305
+        ],
+        "educator": false
+      },
+      {
+        "employeeId": 5,
+        "subjectsId": [
+          307
+        ],
+        "educator": false
+      },
+      {
+        "employeeId": 6,
+        "subjectsId": [
+          310,
+          311
+        ],
+        "educator": false
+      }
+    ],
+    "branchId": 0,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  }
+]
