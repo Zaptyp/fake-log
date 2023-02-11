@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "categoryId": 53,
+    "studentsIds": [
+      1
+    ],
+    "creatorId": 2,
+    "createDate": "2022-10-06 00:00:00",
+    "modifierId": 2,
+    "modifyDate": "2022-10-09",
+    "points": "",
+    "positive": true,
+    "content": "",
+    "journalId": 9,
+    "periodId": 4,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 1,
+    "categoryId": 54,
+    "studentsIds": [
+      1
+    ],
+    "creatorId": 4,
+    "createDate": "2022-11-06 00:00:00",
+    "modifierId": 3,
+    "modifyDate": "2022-11-09",
+    "points": "",
+    "positive": false,
+    "content": "",
+    "journalId": 9,
+    "periodId": 4,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  }
+]
