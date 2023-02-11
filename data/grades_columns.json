@@ -1,0 +1,16 @@
+[
+  {
+    "id": 5,
+    "color": 1,
+    "code": "Spr1",
+    "group": "",
+    "name": "Sprawdzian z działu 1",
+    "weight": 3,
+    "subjectId": 300,
+    "categoryId": 29,
+    "periodId": 4,
+    "journalId": 9,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  }
+]

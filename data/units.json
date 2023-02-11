@@ -8,6 +8,10 @@
     "address": "ul. Wulkanowego 30, 30-300 Powiat wulkanowy, Polska",
     "contactPhone": "+30 000 000 000",
     "patron": "Święty Wulkan",
+    "config": {
+      "averageEnabled": false,
+      "pointsEnabled": false
+    },
     "dbId": "powiatwulkanowy"
   }
 ]

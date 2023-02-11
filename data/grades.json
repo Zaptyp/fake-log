@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "columnId": 5,
+    "rawEntry": "5+ (36/38p)",
+    "grade": "5+",
+    "comment": "36/38p",
+    "value": 5.33,
+    "createDate": "2022-10-01 00:00:00",
+    "creatorId": 1,
+    "modifyDate": "2022-10-03 00:00:00",
+    "modifierId": 1,
+    "studentId": 1,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  }
+]
