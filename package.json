@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "jshint": "^2.13.6",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.21"
   },
   "engines": {
     "node": ">=17.x"
