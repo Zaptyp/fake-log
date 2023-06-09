@@ -14,6 +14,7 @@ jobs:
         with: 
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           known_hosts: ${{ secrets.SSH_KNOWN_HOST }}
+          if_key_exists: ignore
       - name: Stop the Fakelog server
         run: ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} 'sudo systemctl stop fakelog'
       - name: Deploy using rsync
