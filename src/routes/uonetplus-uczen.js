@@ -6,6 +6,7 @@ const converter = require('../utils/converter');
 const Tokens = require('csrf');
 const _ = require('lodash');
 const {getGradeColorByCategoryName} = require("../utils/gradeColor");
+const {validatePolish} = require('validate-polish');
 const {
     format,
     fromUnixTime,
@@ -25,6 +26,7 @@ router.get("/", (req, res) => {
         status: "success",
         data: {
             endpoints: [
+                "/Autoryzacja.mvc/Post",
                 "/Diety.mvc/Get",
                 "/DostepOffice.mvc/Get",
                 "/EgzaminySemestralne.mvc/Get",
@@ -78,6 +80,16 @@ router.get("/", (req, res) => {
 router.get("/Start", (req, res) => {
     res.render("uczen/start");
 });
+
+router.all("/Autoryzacja.mvc/Post", (req, res) => {
+    res.json({
+        "data": {
+            "success": validatePolish.pesel(req.body.data?.Pesel ?? "")
+        },
+        "success": true
+    })
+}) 
+
 
 router.all("/LoginEndpoint.aspx", (req, res) => {
     res.redirect("/Start");
@@ -205,7 +217,7 @@ router.all("/UczenDziennik.mvc/Get", (req, res) => {
                 "O365PassType": 0,
                 "IsAdult": false,
                 "IsStudentParent": false,
-                "IsAuthorized": true,
+                "IsAuthorized": item.Id !== 1,
                 "Obywatelstwo": 1
             };
         }),
