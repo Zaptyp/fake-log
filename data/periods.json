@@ -1,0 +1,22 @@
+[
+  {
+    "id": 4,
+    "number": 1,
+    "startDate": "2022-09-01 00:00:00",
+    "endDate": "2023-01-31 00:00:00",
+    "yearId": 2022,
+    "lastInYear": false,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 5,
+    "number": 2,
+    "startDate": "2023-02-00 00:00:00",
+    "endDate": "2023-08-31 00:00:00",
+    "yearId": 2022,
+    "lastInYear": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "loginId": 3,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 2,
+    "loginId": 4,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 3,
+    "loginId": 5,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 4,
+    "loginId": 6,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 5,
+    "loginId": 7,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 6,
+    "loginId": 8,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 7,
+    "loginId": 9,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 8,
+    "loginId": 10,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 9,
+    "loginId": 11,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 10,
+    "loginId": 12,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  }
+]

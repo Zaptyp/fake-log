@@ -1,0 +1,12 @@
+[
+  {
+    "id": 2,
+    "short": "PS1",
+    "name": "Publiczna szkoła Wulkanowego nr 1 w Powiecie wulkanowym",
+    "address": "ul. Wulkanowego 30, 30-300 Powiecie wulkanowy, Polska",
+    "patron": "Święty Wulkan",
+    "schoolTopic": "12f446f1-1751-1711-10e1-101dd8b71c11",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 300,
+    "name": "Zajęcia z wychowawcą",
+    "code": "godz.wych",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 301,
+    "name": "Język polski",
+    "code": "j. polski",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 302,
+    "name": "Historia",
+    "code": "historia",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 303,
+    "name": "Etyka",
+    "code": "etyka",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 304,
+    "name": "Język angielski",
+    "code": "j. angielski",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 305,
+    "name": "Język niemiecki",
+    "code": "j. niemiecki",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 306,
+    "name": "Metodologia programowania",
+    "code": "metod.programowania",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 307,
+    "name": "Matematyka",
+    "code": "matematyka",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 308,
+    "name": "Fizyka",
+    "code": "fizyka",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 309,
+    "name": "Chemia",
+    "code": "chemia",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 310,
+    "name": "Biologia",
+    "code": "biologia",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 311,
+    "name": "Geografia",
+    "code": "geografia",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 312,
+    "name": "Informatyka",
+    "code": "informatyka",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 313,
+    "name": "Religia",
+    "code": "religia",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  }
+]

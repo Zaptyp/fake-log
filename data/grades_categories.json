@@ -1,0 +1,163 @@
+[
+  {
+    "id": 26,
+    "code": "Akt",
+    "name": "A - aktywność (czarny)",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 27,
+    "code": "Bież",
+    "name": "B - bieżące (fiol)",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 28,
+    "code": "Kart",
+    "name": "K - kartkówka (zielony)",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 29,
+    "code": "Spr",
+    "name": "S - sprawdzian (czerwony)",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 30,
+    "code": "Z.dom",
+    "name": "Zd - zadanie domowe (czarny)",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 65,
+    "code": "odp",
+    "name": "OD - odpowiedź ustna (nieb)",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 67,
+    "code": "ref",
+    "name": "Referat",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 68,
+    "code": "zewn",
+    "name": "Sprawdzian zewnętrzny",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 69,
+    "code": "tsm",
+    "name": "Test sprawności motorycznej",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 70,
+    "code": "tu",
+    "name": "Test umiejętności",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 71,
+    "code": "zs",
+    "name": "Zawody sportowe",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 72,
+    "code": "bs",
+    "name": "Brak stroju",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 73,
+    "code": "r",
+    "name": "Rozgrzewka",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 74,
+    "code": "pr_dł",
+    "name": "Praca długoterminowa",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 75,
+    "code": "ze_ćwi",
+    "name": "Zeszyt ćwiczeń",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 76,
+    "code": "Inne",
+    "name": "Inne",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 77,
+    "code": "popspr",
+    "name": "Poprawa sprawdzianu",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 78,
+    "code": "PK",
+    "name": "Praca klasowa",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 79,
+    "code": "Re",
+    "name": "Recytacja",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 80,
+    "code": "dyk",
+    "name": "Dyktando",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 81,
+    "code": "lek",
+    "name": "Lektura",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 82,
+    "code": "sp_wiedzy",
+    "name": "Sprawdzian wiedzy",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 83,
+    "code": "egz_próbny",
+    "name": "Egzamin próbny",
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  }
+]

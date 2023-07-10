@@ -1,0 +1,79 @@
+[
+  {
+    "id": 46,
+    "name": "Wypełnianie obowiązków ucznia",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 47,
+    "name": "Zaangażowanie społeczne",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 48,
+    "name": "Kultura języka",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 49,
+    "name": "Kultura osobista",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 50,
+    "name": "Dbałość o bezpieczeństwo i zdrowie",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 51,
+    "name": "Szacunek dla innych osób",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 52,
+    "name": "Zachowanie norm etycznych",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 53,
+    "name": "Reprezentowanie szkoły",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 54,
+    "name": "Zachowanie na lekcji",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 59,
+    "name": "Udział w konkursie szkolnym",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  },
+  {
+    "id": 61,
+    "name": "Przeszkadzanie na lekcjach",
+    "active": true,
+    "unitId": 5,
+    "dbId": "powiatwulkanowy"
+  }
+]

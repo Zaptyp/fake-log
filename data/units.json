@@ -1,0 +1,17 @@
+[
+  {
+    "id": 5,
+    "short": "ZS1",
+    "symbol": "005454",
+    "name": "Zespół Szkół nr 1",
+    "fullName": "Zespół szkół nr 1 w Powiecie wulkanowym im. Świętego Wulkana",
+    "address": "ul. Wulkanowego 30, 30-300 Powiat wulkanowy, Polska",
+    "contactPhone": "+30 000 000 000",
+    "patron": "Święty Wulkan",
+    "config": {
+      "averageEnabled": false,
+      "pointsEnabled": false
+    },
+    "dbId": "powiatwulkanowy"
+  }
+]
